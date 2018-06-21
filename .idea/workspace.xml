@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8a3ba7e-cf66-4779-9e67-06ee23b59b3f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Chapter7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Week1ReviewedLab.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,11 +54,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chapter7.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Chapter7.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Chapter7.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+            <state relative-caret-position="-679">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Week1ReviewedLab.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Week1ReviewedLab.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -87,11 +95,12 @@
         <option value="$PROJECT_DIR$/src/com/company/Chapter5.java" />
         <option value="$PROJECT_DIR$/src/com/company/Test.java" />
         <option value="$PROJECT_DIR$/src/com/company/Chapter7.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Week1ReviewedLab.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="583" />
+    <option name="x" value="740" />
     <option name="y" value="23" />
     <option name="width" value="910" />
     <option name="height" value="823" />
@@ -225,7 +234,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="583" y="23" width="910" height="823" extended-state="0" />
+    <frame x="740" y="23" width="910" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -236,12 +245,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3292011" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3292011" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3292011" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3292011" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22350231" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22350231" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -346,8 +355,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Chapter7.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+        <state relative-caret-position="-679">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Week1ReviewedLab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>

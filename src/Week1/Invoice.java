@@ -1,4 +1,4 @@
-package com.company;
+package Week1;
 
 public class Invoice {
     String partNumber = null;
