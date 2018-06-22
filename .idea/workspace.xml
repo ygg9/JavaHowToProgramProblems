@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8a3ba7e-cf66-4779-9e67-06ee23b59b3f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Week2/SavingsAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week2/SavingsAccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/Chapter8_10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/OutOfRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Chapter8_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter8_4.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,30 +17,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SavingsAccount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Week2/SavingsAccount.java">
+      <file leaf-file-name="Chapter8_10.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week2/Chapter8_10.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-              <folding>
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SavingsAccountTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Week2/SavingsAccountTest.java">
+      <file leaf-file-name="Chapter8_4.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week2/Chapter8_4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+            <state relative-caret-position="350">
+              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Week2/Rectangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OutOfRange.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week2/OutOfRange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding>
+                <element signature="e#76#77#0" expanded="true" />
+                <element signature="e#113#114#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,12 +90,15 @@
         <option value="$PROJECT_DIR$/src/Week1/Vocalist.java" />
         <option value="$PROJECT_DIR$/src/Week2/Chapter8.java" />
         <option value="$PROJECT_DIR$/src/Week2/8.4.java" />
-        <option value="$PROJECT_DIR$/src/Week2/Chapter8_4.java" />
         <option value="$PROJECT_DIR$/src/Week2/Time2Test.java" />
         <option value="$PROJECT_DIR$/src/Week2/Time2.java" />
         <option value="$PROJECT_DIR$/src/Week1/Week1ReviewedLabTest.java" />
         <option value="$PROJECT_DIR$/src/Week2/SavingsAccount.java" />
         <option value="$PROJECT_DIR$/src/Week2/SavingsAccountTest.java" />
+        <option value="$PROJECT_DIR$/src/Week2/Chapter8_10.java" />
+        <option value="$PROJECT_DIR$/src/Week2/OutOfRange.java" />
+        <option value="$PROJECT_DIR$/src/Week2/Chapter8_4.java" />
+        <option value="$PROJECT_DIR$/src/Week2/Rectangle.java" />
       </list>
     </option>
   </component>
@@ -150,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SavingsAccountTest">
+  <component name="RunManager" selected="Application.Chapter8_4">
     <configuration name="Chapter8_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week2.Chapter8_4" />
       <module name="LearningPath" />
@@ -230,11 +246,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Chapter8_4" />
         <item itemvalue="Application.SavingsAccountTest" />
         <item itemvalue="JUnit.Week1ReviewedLabTest" />
         <item itemvalue="JUnit.Week1ReviewedLabTest.testDancer" />
         <item itemvalue="Application.Time2Test" />
-        <item itemvalue="Application.Chapter8_4" />
       </list>
     </recent_temporary>
   </component>
@@ -293,14 +309,14 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.3160763" side_tool="true" visible="true" weight="0.35674933" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5108992" side_tool="true" visible="true" weight="0.3292011" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6839237" visible="true" weight="0.35674933" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6839237" weight="0.35674933" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49046323" weight="0.3292011" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4891008" visible="true" weight="0.3292011" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34332424" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34332424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -449,23 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter8_4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="e#102#103#0" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#89#90#0" expanded="true" />
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Week1/Id.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -521,6 +520,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/SavingsAccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Week2/SavingsAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -538,10 +544,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/SavingsAccountTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter8_10.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/OutOfRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#76#77#0" expanded="true" />
+            <element signature="e#113#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter8_4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
