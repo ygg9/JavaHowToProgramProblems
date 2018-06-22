@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8a3ba7e-cf66-4779-9e67-06ee23b59b3f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Week1/Week1ReviewedLabTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Week1ReviewedLabTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/SavingsAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/SavingsAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,43 +15,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Week1ReviewedLabTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Week1/Week1ReviewedLabTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="362">
-                  <caret line="32" column="78" selection-start-line="32" selection-start-column="78" selection-end-line="32" selection-end-column="78" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="Dancer.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Week1/Dancer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-11">
-                  <caret line="9" column="30" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="30" />
-                  <folding>
-                    <element signature="e#84#85#0" expanded="true" />
-                    <element signature="e#112#113#0" expanded="true" />
-                    <element signature="e#153#154#0" expanded="true" />
-                    <element signature="e#190#191#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="SavingsAccount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week2/SavingsAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SavingsAccountTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Week2/SavingsAccountTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,13 +81,15 @@
         <option value="$PROJECT_DIR$/src/Week2/Time2Test.java" />
         <option value="$PROJECT_DIR$/src/Week2/Time2.java" />
         <option value="$PROJECT_DIR$/src/Week1/Week1ReviewedLabTest.java" />
+        <option value="$PROJECT_DIR$/src/Week2/SavingsAccount.java" />
+        <option value="$PROJECT_DIR$/src/Week2/SavingsAccountTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="48" />
+    <option name="x" value="662" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="776" />
     <option name="height" value="823" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -114,12 +111,6 @@
               <item name="LearningPath" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearningPath" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearningPath" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningPath" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Week1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearningPath" type="b2602c69:ProjectViewProjectNode" />
@@ -159,9 +150,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Week1ReviewedLabTest">
-    <configuration name="Chapter8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week2.Chapter8" />
+  <component name="RunManager" selected="Application.SavingsAccountTest">
+    <configuration name="Chapter8_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week2.Chapter8_4" />
       <module name="LearningPath" />
       <extension name="coverage">
         <pattern>
@@ -170,8 +161,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Chapter8_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week2.Chapter8_4" />
+    <configuration name="SavingsAccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week2.SavingsAccountTest" />
       <module name="LearningPath" />
       <extension name="coverage">
         <pattern>
@@ -232,18 +223,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Week1ReviewedLabTest" />
-      <item itemvalue="Application.Chapter8" />
       <item itemvalue="Application.Chapter8_4" />
       <item itemvalue="Application.Time2Test" />
       <item itemvalue="JUnit.Week1ReviewedLabTest.testDancer" />
+      <item itemvalue="Application.SavingsAccountTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SavingsAccountTest" />
         <item itemvalue="JUnit.Week1ReviewedLabTest" />
         <item itemvalue="JUnit.Week1ReviewedLabTest.testDancer" />
         <item itemvalue="Application.Time2Test" />
         <item itemvalue="Application.Chapter8_4" />
-        <item itemvalue="Application.Chapter8" />
       </list>
     </recent_temporary>
   </component>
@@ -261,12 +252,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Week1ReviewedLabTest - 2018.06.22 at 09h 05m 56s.xml">
-      <configuration name="Week1ReviewedLabTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Week1ReviewedLabTest - 2018.06.22 at 09h 16m 24s.xml">
-      <configuration name="Week1ReviewedLabTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Week1ReviewedLabTest - 2018.06.22 at 09h 23m 51s.xml">
       <configuration name="Week1ReviewedLabTest" configurationId="JUnit" />
     </history-entry>
@@ -291,9 +276,15 @@
     <history-entry file="Week1ReviewedLabTest - 2018.06.22 at 09h 27m 48s.xml">
       <configuration name="Week1ReviewedLabTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Week1ReviewedLabTest - 2018.06.22 at 09h 30m 31s.xml">
+      <configuration name="Week1ReviewedLabTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Week1ReviewedLabTest - 2018.06.22 at 09h 30m 35s.xml">
+      <configuration name="Week1ReviewedLabTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="23" width="1440" height="823" extended-state="0" />
+    <frame x="662" y="23" width="776" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -302,14 +293,14 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.31402004" side_tool="true" visible="true" weight="0.35674933" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.3160763" side_tool="true" visible="true" weight="0.35674933" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.68597996" visible="true" weight="0.35674933" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6839237" visible="true" weight="0.35674933" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49213162" weight="0.3292011" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49046323" weight="0.3292011" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18025751" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34332424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -500,6 +491,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1096">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week1/Week1ReviewedLabTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Week1/Dancer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-11">
@@ -513,20 +521,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
+    <entry file="file://$PROJECT_DIR$/src/Week2/SavingsAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1096">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week1/Week1ReviewedLabTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Week2/SavingsAccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="32" column="78" selection-start-line="32" selection-start-column="78" selection-end-line="32" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
         </state>
       </provider>
     </entry>
