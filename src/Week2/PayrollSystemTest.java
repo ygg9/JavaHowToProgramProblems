@@ -12,6 +12,7 @@ public class PayrollSystemTest {
         AbstractHourlyEmployee hourlyEmployee = new AbstractHourlyEmployee("Karen", "Price", "222-22-2222", 16.75, 40, new Date(6, 10, 1985));
         CommissionEmployee commissionEmployee = new CommissionEmployee("Sue","Jones", "333-33-3333", 10000, .06, new Date(4, 6, 1970));
         BasePlusCommissionEmployee basePlusCommissionEmployee = new BasePlusCommissionEmployee("Bob", "Lewis", "444-44-4444", 5000, .04, 300, new Date(11, 23, 2001));
+        AbstractPieceWorker abstractPieceWorker = new AbstractPieceWorker("Joe", "Prince", "555-55-5555", 1000, 12, new Date(4, 15, 2005));
 
         System.out.println("Employees processed individually:");
 
@@ -23,12 +24,13 @@ public class PayrollSystemTest {
 
         System.out.printf("%s%n%s: $%,.2f%n%n", basePlusCommissionEmployee, "earned", basePlusCommissionEmployee.earnings());
 
-        AbstractEmployee[] employees = new AbstractEmployee[4];
+        AbstractEmployee[] employees = new AbstractEmployee[5];
 
         employees[0] = salariedEmployee;
         employees[1] = hourlyEmployee;
         employees[2] = commissionEmployee;
         employees[3] = basePlusCommissionEmployee;
+        employees[4] = abstractPieceWorker;
 
         System.out.printf("Employees processed polymorphically:%n%n");
 
