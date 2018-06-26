@@ -5,11 +5,18 @@ public abstract class AbstractEmployee {
     private final String lastName;
     private final String socialSecurityNumber;
 
+    public Date getBirthday() {
+        return birthday;
+    }
+
+    private final Date birthday;
+
     // constructor
-    public AbstractEmployee(String firstName, String lastName, String socialSecurityNumber){
+    public AbstractEmployee(String firstName, String lastName, String socialSecurityNumber, Date birthday){
         this.firstName = firstName;
         this.lastName = lastName;
         this.socialSecurityNumber = socialSecurityNumber;
+        this.birthday = birthday;
     }
 
     // return first name

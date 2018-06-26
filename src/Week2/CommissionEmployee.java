@@ -4,8 +4,8 @@ public class CommissionEmployee extends AbstractEmployee {
     private double grossSales;
     private double commissionRate;
 
-    public CommissionEmployee(String firstName, String lastName, String socialSecurityNumber, double grossSales, double commissionRate) {
-        super(firstName, lastName, socialSecurityNumber);
+    public CommissionEmployee(String firstName, String lastName, String socialSecurityNumber, double grossSales, double commissionRate, Date birthday) {
+        super(firstName, lastName, socialSecurityNumber, birthday);
 
         if (commissionRate <= 0.0 || commissionRate >= 1.0) {
             throw new IllegalArgumentException("Commission rate must be > 0.0 and < 1.0");
