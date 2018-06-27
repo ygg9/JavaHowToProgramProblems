@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8a3ba7e-cf66-4779-9e67-06ee23b59b3f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Week2/ExceptionA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week2/ExceptionB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week2/ExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/SomeClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/SomeClassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,14 +45,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExceptionTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExceptionTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Week2/ExceptionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            <state relative-caret-position="234">
+              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SomeClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week2/SomeClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SomeClassTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Week2/SomeClassTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -73,8 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/Chapter3.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Invoice.java" />
         <option value="$PROJECT_DIR$/src/com/company/Chapter2.java" />
         <option value="$PROJECT_DIR$/src/com/company/InvoiceTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/Palindrome.java" />
@@ -124,6 +139,8 @@
         <option value="$PROJECT_DIR$/src/Week2/ExceptionA.java" />
         <option value="$PROJECT_DIR$/src/Week2/ExceptionB.java" />
         <option value="$PROJECT_DIR$/src/Week2/ExceptionTest.java" />
+        <option value="$PROJECT_DIR$/src/Week2/SomeClass.java" />
+        <option value="$PROJECT_DIR$/src/Week2/SomeClassTest.java" />
       </list>
     </option>
   </component>
@@ -187,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExceptionTest">
+  <component name="RunManager" selected="Application.SomeClassTest">
     <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week2.EmployeeTest" />
       <module name="LearningPath" />
@@ -228,37 +245,30 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Week1ReviewedLabTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SomeClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week2.SomeClassTest" />
       <module name="LearningPath" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Week1" />
-      <option name="MAIN_CLASS_NAME" value="Week1.Week1ReviewedLabTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Week1ReviewedLabTest" />
       <item itemvalue="Application.ShapeTest" />
       <item itemvalue="Application.EmployeeTest" />
       <item itemvalue="Application.PayrollSystemTest" />
       <item itemvalue="Application.ExceptionTest" />
+      <item itemvalue="Application.SomeClassTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SomeClassTest" />
         <item itemvalue="Application.ExceptionTest" />
         <item itemvalue="Application.PayrollSystemTest" />
         <item itemvalue="Application.ShapeTest" />
         <item itemvalue="Application.EmployeeTest" />
-        <item itemvalue="JUnit.Week1ReviewedLabTest" />
       </list>
     </recent_temporary>
   </component>
@@ -317,11 +327,11 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.32659176" side_tool="true" visible="true" weight="0.35674933" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.3273408" side_tool="true" visible="true" weight="0.35674933" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6734082" visible="true" weight="0.35674933" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.67265916" visible="true" weight="0.35674933" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4990099" weight="0.3292011" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4801498" weight="0.3292011" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.47940075" weight="0.3292011" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2846442" />
@@ -349,20 +359,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Week1/Palindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="48" lean-forward="true" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week1/Invoice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Week1/Chapter5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -744,11 +740,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Week2/ExceptionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        <state relative-caret-position="234">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/SomeClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/SomeClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
         </state>
       </provider>
     </entry>
