@@ -1,6 +1,8 @@
 package Week2;
 
-public class TransactionRecord {
+import java.io.Serializable;
+
+public class TransactionRecord implements Serializable {
     public TransactionRecord(int accountNumber, double amount){
         this.accountNumber = accountNumber;
         this.amount = amount;

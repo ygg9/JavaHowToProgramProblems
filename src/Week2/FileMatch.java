@@ -1,8 +1,8 @@
 package Week2;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 import java.lang.SecurityException;
+import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
 
@@ -13,23 +13,186 @@ public class FileMatch {
     private static Scanner inTransaction;
     private static ArrayList<Account> accountArrayList = new ArrayList<Account>();
     private static ArrayList<TransactionRecord> transactionRecordArrayList = new ArrayList<TransactionRecord>();
+    private static Scanner input = new Scanner(System.in);
+    private static ObjectOutputStream logOut;
+    private static ObjectOutputStream newMastOut;
+    private static ObjectInputStream transIn;
+    private static ObjectInputStream oldMastIn;
 
     public static void main(String[] args){
-        openOldMastFile();
-        readOldMastFile();
-        closeOldMastFile();
+        System.out.println("1 for serialized, 2 for text");
 
-        openTransactionFile();
-        readTransactionFile();
-        closeTransactionFile();
+        if (input.nextInt() == 1) {
+            openOldMastFileSerialized();
+            readOldMastFileSerialized();
+            closeOldMastFileSerialized();
 
-        openNewMastFile();
-        writeNewMastFile();
-        closeNewMastFile();
+            openTransactionFileSerialized();
+            readTransactionFileSerialized();
+            closeTransactionFileSerialized();
 
-        openLogFile();
-        writeLogFile();
-        closeLogFile();
+            openNewMastFileSerialized();
+            writeNewMastFileSerialized();
+            closeNewMastFileSerialized();
+
+            openLogFileSerialized();
+            writeLogFileSerialized();
+            closeLogFileSerialized();
+
+        } else{
+            openOldMastFile();
+            readOldMastFile();
+            closeOldMastFile();
+
+            openTransactionFile();
+            readTransactionFile();
+            closeTransactionFile();
+
+            openNewMastFile();
+            writeNewMastFile();
+            closeNewMastFile();
+
+            openLogFile();
+            writeLogFile();
+            closeLogFile();
+        }
+    }
+
+    public static void readOldMastFileSerialized(){
+        try{
+            while (true){
+                Account account = (Account) oldMastIn.readObject();
+                accountArrayList.add(account);
+            }
+        } catch (EOFException endOfFileException){
+            System.out.printf("No more records%n");
+        } catch (ClassNotFoundException classNotFoundException){
+            System.err.println("Invalid object type. Terminating.");
+        } catch (IOException ioException){
+            System.err.println("Error reading from file. Terminating");
+        }
+    }
+
+    public static void openOldMastFileSerialized(){
+        try{
+            oldMastIn = new ObjectInputStream(Files.newInputStream(Paths.get("oldmast.ser")));
+        } catch (IOException ioException){
+            System.err.println("Error opening file. Terminating");
+            System.exit(1);
+        }
+    }
+
+    public static void closeOldMastFileSerialized(){
+        try{
+            if (oldMastIn != null){
+                oldMastIn.close();
+            }
+        } catch (IOException ioException){
+            System.err.println("Error closing file. Terminating");
+        }
+    }
+
+    public static void readTransactionFileSerialized(){
+        try{
+            while (true){
+                TransactionRecord transaction = (TransactionRecord) transIn.readObject();
+                transactionRecordArrayList.add(transaction);
+            }
+        } catch (EOFException endOfFileException){
+            System.out.printf("No more records%n");
+        } catch (ClassNotFoundException classNotFoundException){
+            System.err.println("Invalid object type. Terminating.");
+        } catch (IOException ioException){
+            System.err.println("Error reading from file. Terminating");
+        }
+    }
+
+    public static void openTransactionFileSerialized(){
+        try{
+            transIn = new ObjectInputStream(Files.newInputStream(Paths.get("trans.ser")));
+        } catch (IOException ioException){
+            System.err.println("Error opening file. Terminating");
+            System.exit(1);
+        }
+    }
+
+    public static void closeTransactionFileSerialized(){
+        try{
+            if (transIn != null){
+                transIn.close();
+            }
+        } catch (IOException ioException){
+            System.err.println("Error closing file. Terminating");
+        }
+    }
+
+    public static void writeNewMastFileSerialized(){
+        List<TransactionRecord> found = new ArrayList<TransactionRecord>();
+        for (Account account: accountArrayList){
+            for(TransactionRecord transaction: transactionRecordArrayList){
+                if(account.getAccount() == transaction.getAccountNumber()){
+                    account.combine(transaction);
+                    found.add(transaction);
+                }
+            }
+            try{
+                newMastOut.writeObject(account);
+            } catch (IOException ioException){
+                System.err.println("Error writing to file. Terminating");
+            }
+        }
+        transactionRecordArrayList.removeAll(found);
+    }
+
+    public static void openNewMastFileSerialized(){
+        try{
+            newMastOut = new ObjectOutputStream(Files.newOutputStream(Paths.get("newmast.ser")));
+        } catch (IOException ioException){
+            System.err.println("Error opening file. Terminating");
+            System.exit(1);
+        }
+    }
+
+    public static void closeNewMastFileSerialized(){
+        try{
+            if (newMastOut != null){
+                newMastOut.close();
+            }
+        } catch (IOException ioException){
+            System.err.println("Error closing file. Terminating");
+        }
+    }
+
+    public static void writeLogFileSerialized(){
+        for(TransactionRecord transaction: transactionRecordArrayList){
+            try{
+                String outString = "Unmatched transaction record for account number: ";
+                logOut.writeObject(outString);
+                logOut.writeObject(transaction);
+                logOut.writeChar('\n');
+            } catch (IOException ioException){
+                System.err.println("Error writing to file. Terminating");
+            }
+        }
+    }
+
+    public static void openLogFileSerialized(){
+        try{
+            logOut = new ObjectOutputStream(Files.newOutputStream(Paths.get("log.ser")));
+        } catch (IOException ioException){
+            System.err.println("Error opening file. Terminating");
+            System.exit(1);
+        }
+    }
+
+    public static void closeLogFileSerialized(){
+        try{
+            if (logOut != null){
+                logOut.close();
+            }
+        } catch (IOException ioException){
+            System.err.println("Error closing file. Terminating");
+        }
     }
 
     public static void writeLogFile(){
