@@ -2,17 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8a3ba7e-cf66-4779-9e67-06ee23b59b3f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Week2/Chapter11/ExceptionA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newmast.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newmast.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/Week2/CreateMast.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningPath/Week2/CreateMast.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/Week2/CreateTrans.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningPath/Week2/CreateTrans.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/Week2/FileMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningPath/Week2/FileMatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/Week2/TransactionRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningPath/Week2/TransactionRecord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week2/CreateMast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/CreateMast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week2/CreateTrans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/CreateTrans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week2/FileMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/FileMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week2/TransactionRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/TransactionRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trans.txt" beforeDir="false" afterPath="$PROJECT_DIR$/trans.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/Week2/ExceptionA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningPath/Week2/ExceptionA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/Chapter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Chapter2/Chapter2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/Chapter5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Chapter5/Chapter5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/Chapter7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Chapter7/Chapter7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/Dancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Week1ReviewedLab/Dancer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/Id.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Week1ReviewedLab/Id.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Chapter3/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/InvoiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Chapter3/InvoiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Chapter4/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/Performer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Week1ReviewedLab/Performer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/Vocalist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Week1ReviewedLab/Vocalist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/Week1ReviewedLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Week1ReviewedLab/Week1ReviewedLab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/Week1ReviewedLabTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Week1ReviewedLab/Week1ReviewedLabTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/AbstractEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter10/AbstractEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/AbstractHourlyEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter10/AbstractHourlyEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/AbstractPieceWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter10/AbstractPieceWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter15/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/BasePlusCommissionEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter10/BasePlusCommissionEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Chapter14Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter14/Chapter14Exercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Chapter8_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter8/Chapter8_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/CommissionEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter10/CommissionEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/CreateMast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter15/CreateMast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/CreateTrans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter15/CreateTrans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter10/Date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter9/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter9/EmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/ExceptionA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/ExceptionB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter11/ExceptionB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/ExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter11/ExceptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/FileMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter15/FileMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/HourlyEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter9/HourlyEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/OutOfRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter8/OutOfRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/PayrollSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter10/PayrollSystemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/PieceWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter9/PieceWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter9/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Quadrilateral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter9/Quadrilateral.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter8/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/RectangleInheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter9/RectangleInheritance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/SalariedEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter10/SalariedEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter8/SavingsAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/SavingsAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter8/SavingsAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/ShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter9/ShapeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/SomeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter11/SomeClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/SomeClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter11/SomeClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter9/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Time2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter8/Time2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Time2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter8/Time2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/TrafficLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter8/TrafficLight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/TrafficLightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter8/TrafficLightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/TransactionRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter15/TransactionRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Trapezoid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Chapter9/Trapezoid.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,63 +69,7 @@
     <SUITE FILE_PATH="coverage/LearningPath$Week1ReviewedLabTest.ic" NAME="Week1ReviewedLabTest Coverage Results" MODIFIED="1529934506436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="FileMatch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Week2/FileMatch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#main#0;class#FileMatch#0" />
-                <element signature="method#readTransactionFileSerialized#0;class#FileMatch#0" />
-                <element signature="method#openTransactionFileSerialized#0;class#FileMatch#0" />
-                <element signature="method#closeTransactionFileSerialized#0;class#FileMatch#0" />
-                <element signature="method#readTransactionFileSerialized#0;class#FileMatch#0" />
-                <element signature="method#openNewMastFileSerialized#0;class#FileMatch#0" />
-                <element signature="method#closeNewMastFileSerialized#0;class#FileMatch#0" />
-                <element signature="method#writeLogFileSerialized#0;class#FileMatch#0" />
-                <element signature="method#openLogFileSerialized#0;class#FileMatch#0" />
-                <element signature="method#closeLogFileSerialized#0;class#FileMatch#0" />
-                <element signature="method#writeLogFileSerialized#0;class#FileMatch#0" />
-                <element signature="method#openLogFileSerialized#0;class#FileMatch#0" />
-                <element signature="method#closeLogFileSerialized#0;class#FileMatch#0" />
-                <element signature="method#writeLogFile#0;class#FileMatch#0" />
-                <element signature="method#openLogFile#0;class#FileMatch#0" />
-                <element signature="method#closeLogFile#0;class#FileMatch#0" />
-                <element signature="method#readTransactionFile#0;class#FileMatch#0" />
-                <element signature="method#openTransactionFile#0;class#FileMatch#0" />
-                <element signature="method#closeTransactionFile#0;class#FileMatch#0" />
-                <element signature="method#readOldMastFile#0;class#FileMatch#0" />
-                <element signature="method#openOldMastFile#0;class#FileMatch#0" />
-                <element signature="method#closeOldMastFile#0;class#FileMatch#0" />
-                <element signature="method#writeNewMastFile#0;class#FileMatch#0" />
-                <element signature="method#openNewMastFile#0;class#FileMatch#0" />
-                <element signature="method#closeNewMastFile#0;class#FileMatch#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TrafficLightTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Week2/TrafficLightTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TrafficLight.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Week2/TrafficLight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -102,20 +89,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Week1/Id.java" />
-        <option value="$PROJECT_DIR$/src/Week1/Week1ReviewedLab.java" />
-        <option value="$PROJECT_DIR$/Test/Week1ReviewedLabTest.java" />
-        <option value="$PROJECT_DIR$/src/Week1/Vocalist.java" />
-        <option value="$PROJECT_DIR$/src/Week2/Chapter8.java" />
-        <option value="$PROJECT_DIR$/src/Week2/8.4.java" />
-        <option value="$PROJECT_DIR$/src/Week2/Time2Test.java" />
-        <option value="$PROJECT_DIR$/src/Week2/Time2.java" />
         <option value="$PROJECT_DIR$/src/Week2/SavingsAccount.java" />
         <option value="$PROJECT_DIR$/src/Week2/SavingsAccountTest.java" />
         <option value="$PROJECT_DIR$/src/Week2/Chapter8_10.java" />
         <option value="$PROJECT_DIR$/src/Week2/OutOfRange.java" />
         <option value="$PROJECT_DIR$/src/Week2/Chapter8_4.java" />
-        <option value="$PROJECT_DIR$/src/Week2/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/Week2/TrafficLight.java" />
         <option value="$PROJECT_DIR$/src/Week2/TrafficLightTest.java" />
         <option value="$PROJECT_DIR$/src/Week1/Week1ReviewedLabTest.java" />
@@ -130,19 +108,15 @@
         <option value="$PROJECT_DIR$/src/Week2/HourlyEmployee.java" />
         <option value="$PROJECT_DIR$/src/Week2/EmployeeTest.java" />
         <option value="$PROJECT_DIR$/src/Week2/Chapter10Employee.java" />
-        <option value="$PROJECT_DIR$/src/Week2/SalariedEmployee.java" />
         <option value="$PROJECT_DIR$/src/Week2/AbstractHourlyEmployee.java" />
-        <option value="$PROJECT_DIR$/src/Week2/CommissionEmployee.java" />
         <option value="$PROJECT_DIR$/src/Week2/Date.java" />
         <option value="$PROJECT_DIR$/src/Week2/BasePlusCommissionEmployee.java" />
         <option value="$PROJECT_DIR$/src/Week2/AbstractEmployee.java" />
         <option value="$PROJECT_DIR$/src/Week2/PayrollSystemTest.java" />
         <option value="$PROJECT_DIR$/src/Week2/AbstractPieceWorker.java" />
-        <option value="$PROJECT_DIR$/src/Week2/ExceptionA.java" />
         <option value="$PROJECT_DIR$/src/Week2/ExceptionB.java" />
         <option value="$PROJECT_DIR$/src/Week2/ExceptionTest.java" />
         <option value="$PROJECT_DIR$/src/Week2/SomeClass.java" />
-        <option value="$PROJECT_DIR$/src/Week2/SomeClassTest.java" />
         <option value="$PROJECT_DIR$/src/Week2/Chapter14Exercises.java" />
         <option value="$PROJECT_DIR$/src/Week2/CreateTransactions.java" />
         <option value="$PROJECT_DIR$/src/oldmast.txt" />
@@ -153,11 +127,24 @@
         <option value="$PROJECT_DIR$/src/Week2/CreateTrans.java" />
         <option value="$PROJECT_DIR$/src/Week2/CreateMast.java" />
         <option value="$PROJECT_DIR$/src/Week2/FileMatch.java" />
+        <option value="$PROJECT_DIR$/src/Week2/ExceptionA.java" />
+        <option value="$PROJECT_DIR$/src/Week2/SomeClassTest.java" />
+        <option value="$PROJECT_DIR$/src/Week2/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/Week2/Chapter8/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/Week2/Chapter9/SalariedEmployee.java" />
+        <option value="$PROJECT_DIR$/src/Week2/CommissionEmployee.java" />
+        <option value="$PROJECT_DIR$/src/Week2/Chapter9/HourlyEmployee.java" />
+        <option value="$PROJECT_DIR$/src/Week2/SalariedEmployee.java" />
+        <option value="$PROJECT_DIR$/src/Week2/Chapter8/Time2Test.java" />
+        <option value="$PROJECT_DIR$/src/Week2/Chapter8/Chapter8_4.java" />
+        <option value="$PROJECT_DIR$/src/Week1/Week1ReviewedLab/Week1ReviewedLabTest.java" />
+        <option value="$PROJECT_DIR$/src/Week1/Week1ReviewedLab/Dancer.java" />
+        <option value="$PROJECT_DIR$/src/Week1/Week1ReviewedLab/Vocalist.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="55" />
+    <option name="x" value="20" />
     <option name="y" value="23" />
     <option name="width" value="1381" />
     <option name="height" value="823" />
@@ -185,6 +172,12 @@
               <item name="LearningPath" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearningPath" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Week1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearningPath" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearningPath" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Week2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -204,6 +197,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -222,71 +216,71 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileMatch">
+  <component name="RunManager" selected="Application.ExceptionTest">
     <configuration name="Chapter14Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week2.Chapter14Exercises" />
+      <option name="MAIN_CLASS_NAME" value="Week2.Chapter14.Chapter14Exercises" />
       <module name="LearningPath" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week2.*" />
+          <option name="PATTERN" value="Week2.Chapter15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="CreateMast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week2.CreateMast" />
+      <option name="MAIN_CLASS_NAME" value="Week2.Chapter15.CreateMast" />
       <module name="LearningPath" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week2.*" />
+          <option name="PATTERN" value="Week2.Chapter15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="CreateTrans" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week2.CreateTrans" />
+      <option name="MAIN_CLASS_NAME" value="Week2.Chapter15.CreateTrans" />
       <module name="LearningPath" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week2.*" />
+          <option name="PATTERN" value="Week2.Chapter15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ExceptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week2.Chapter11.ExceptionTest" />
+      <module name="LearningPath" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week2.Chapter15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="FileMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week2.FileMatch" />
+      <option name="MAIN_CLASS_NAME" value="Week2.Chapter15.FileMatch" />
       <module name="LearningPath" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SomeClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week2.SomeClassTest" />
-      <module name="LearningPath" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Week2.*" />
+          <option name="PATTERN" value="Week2.Chapter15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.SomeClassTest" />
       <item itemvalue="Application.Chapter14Exercises" />
       <item itemvalue="Application.FileMatch" />
       <item itemvalue="Application.CreateMastAndTrans" />
       <item itemvalue="Application.CreateTrans" />
+      <item itemvalue="Application.ExceptionTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExceptionTest" />
         <item itemvalue="Application.FileMatch" />
         <item itemvalue="Application.CreateTrans" />
         <item itemvalue="Application.CreateMastAndTrans" />
         <item itemvalue="Application.Chapter14Exercises" />
-        <item itemvalue="Application.SomeClassTest" />
       </list>
     </recent_temporary>
   </component>
@@ -345,8 +339,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="23" width="1381" height="823" extended-state="0" />
-    <editor active="true" />
+    <frame x="20" y="23" width="1381" height="823" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49926037" weight="0.3292011" />
@@ -354,14 +347,15 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5250187" side_tool="true" visible="true" weight="0.3292011" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5011202" side_tool="true" visible="true" weight="0.3292011" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5377147" weight="0.3429752" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5369679" weight="0.25895315" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49778107" weight="0.3292011" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.47498134" visible="true" weight="0.3292011" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.47498134" weight="0.3292011" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20911127" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49887976" visible="true" weight="0.3292011" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -374,7 +368,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49960348" weight="0.3292011" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -382,347 +375,49 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="28" />
+      <option name="time" value="31" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Week1/Palindrome.java">
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter15/CreateMast.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+        <state relative-caret-position="143">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/Time2Test.java">
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter15/CreateTrans.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        <state relative-caret-position="143">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/SavingsAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/OutOfRange.java">
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter15/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/Time2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week1/InvoiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week1/Vocalist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week1/Week1ReviewedLab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week1/Week1ReviewedLabTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/HourlyWorker.java" />
-    <entry file="file://$PROJECT_DIR$/src/Week2/Quadrilateral.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="25" column="61" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="25" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/Trapezoid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/RectangleInheritance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/ShapeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/PieceWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/SalariedEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/CommissionEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-359">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/EmployeeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter15/FileMatch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/BasePlusCommissionEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/HourlyEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/PayrollSystemTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/AbstractPieceWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/AbstractHourlyEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/AbstractEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/ExceptionA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/ExceptionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/SomeClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter14Exercises.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/SomeClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/ExceptionB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.txt" />
-    <entry file="file://$PROJECT_DIR$/src/Week2/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oldmast.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/TransactionRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/CreateTrans.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trans.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trans.ser">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oldmast.ser">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newmast.ser">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/CreateMast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newmast.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/FileMatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#FileMatch#0" />
+            <element signature="method#closeOldMastFileSerialized#0;class#FileMatch#0" />
             <element signature="method#readTransactionFileSerialized#0;class#FileMatch#0" />
             <element signature="method#openTransactionFileSerialized#0;class#FileMatch#0" />
             <element signature="method#closeTransactionFileSerialized#0;class#FileMatch#0" />
-            <element signature="method#readTransactionFileSerialized#0;class#FileMatch#0" />
+            <element signature="method#writeNewMastFileSerialized#0;class#FileMatch#0" />
             <element signature="method#openNewMastFileSerialized#0;class#FileMatch#0" />
-            <element signature="method#closeNewMastFileSerialized#0;class#FileMatch#0" />
-            <element signature="method#writeLogFileSerialized#0;class#FileMatch#0" />
-            <element signature="method#openLogFileSerialized#0;class#FileMatch#0" />
-            <element signature="method#closeLogFileSerialized#0;class#FileMatch#0" />
-            <element signature="method#writeLogFileSerialized#0;class#FileMatch#0" />
             <element signature="method#openLogFileSerialized#0;class#FileMatch#0" />
             <element signature="method#closeLogFileSerialized#0;class#FileMatch#0" />
             <element signature="method#writeLogFile#0;class#FileMatch#0" />
@@ -731,7 +426,6 @@
             <element signature="method#readTransactionFile#0;class#FileMatch#0" />
             <element signature="method#openTransactionFile#0;class#FileMatch#0" />
             <element signature="method#closeTransactionFile#0;class#FileMatch#0" />
-            <element signature="method#readOldMastFile#0;class#FileMatch#0" />
             <element signature="method#openOldMastFile#0;class#FileMatch#0" />
             <element signature="method#closeOldMastFile#0;class#FileMatch#0" />
             <element signature="method#writeNewMastFile#0;class#FileMatch#0" />
@@ -741,17 +435,345 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/TrafficLightTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter15/TransactionRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/TrafficLight.java">
+    <entry file="file://$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter8/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter8/SavingsAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter8/SavingsAccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter8/TrafficLight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter8/TrafficLightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter9/ShapeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter9/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter9/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter9/Quadrilateral.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter9/RectangleInheritance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter9/Trapezoid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter9/PieceWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter9/HourlyEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter9/EmployeeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter9/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter10/SalariedEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter10/PayrollSystemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter10/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter10/CommissionEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter10/BasePlusCommissionEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter10/AbstractPieceWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter10/AbstractHourlyEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter10/AbstractEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter11/ExceptionA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter11/ExceptionB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter11/ExceptionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter11/SomeClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter11/SomeClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter14/Chapter14Exercises.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week1/Chapter5/Chapter5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week1/Chapter3/InvoiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week1/Chapter3/Invoice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week1/Chapter2/Chapter2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter8/OutOfRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter8/Chapter8_4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter8/Time2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter8/Time2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week1/Chapter7/Chapter7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week1/Chapter4/Palindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week1/Week1ReviewedLab/Dancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week1/Week1ReviewedLab/Vocalist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week1/Week1ReviewedLab/Week1ReviewedLab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week1/Week1ReviewedLab/Week1ReviewedLabTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week1/Week1ReviewedLab/Id.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week1/Week1ReviewedLab/Performer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
