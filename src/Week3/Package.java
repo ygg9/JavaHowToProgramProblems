@@ -1,4 +1,4 @@
-package ReadingBarcodes;
+package Week3;
 
 public class Package implements Comparable<Package> {
     public Package() {
@@ -77,8 +77,9 @@ public class Package implements Comparable<Package> {
     private int height;
     private int width;
     private int depth;
+    private String street;
 
-    Package(int id, String grd, int fromZip, int toZip, double weight, int height, int width, int depth){
+    Package(int id, String grd, int fromZip, int toZip, double weight, int height, int width, int depth, String street){
         this.id = id;
         this.GRD = grd;
         this.fromZip = fromZip;
@@ -87,6 +88,7 @@ public class Package implements Comparable<Package> {
         this.height = height;
         this.width = width;
         this.depth = depth;
+        this.street = street;
     }
 
     @Override

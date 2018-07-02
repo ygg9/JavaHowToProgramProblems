@@ -1,4 +1,4 @@
-package ReadingBarcodes;
+package Week3;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -16,25 +16,29 @@ public class Barcode {
     private static ArrayList<Package> air = new ArrayList<Package>();
 
     public static void main(String[] args){
-        codes[0] = "11112324|GRD|12345|12345|30.0|5|8|10|Xalkdjf|adc";
-        codes[1] = "11321324|AIR|12345|12345|30.0|5|8|10|Xalkdjf|adc";
-        codes[2] = "12312324|RAL|12354|12354|30.0|5|8|10|Xalkdjf|adc";
-        codes[3] = "23112324|GRD|12354|12354|30.0|5|8|10|Xalkdjf|adc";
-        codes[4] = "14112324|RAL|12354|12354|30.0|5|8|10|Xalkdjf|adc";
-        codes[5] = "86112324|AIR|12354|12354|30.0|5|8|10|Xalkdjf|adc";
-        codes[6] = "34112324|GRD|12354|12354|30.0|5|8|10|Xalkdjf|adc";
-        codes[7] = "23112324|RAL|12354|12354|30.0|5|8|10|Xalkdjf|adc";
-        codes[8] = "10112324|AIR|12354|12354|30.0|5|8|10|Xalkdjf|adc";
+        codes[0] = "11112324|GRD|12345|12345|30.0|5|8|10|Xalkdjf|adc|123 Main street";
+        codes[1] = "11321324|AIR|12345|12345|30.0|5|8|10|Xalkdjf|adc|42 Hello world";
+        codes[2] = "12312324|RAL|12354|12354|30.0|5|8|10|Xalkdjf|adc|100 wow wow";
+        codes[3] = "23112324|GRD|12354|12354|30.0|5|8|10|Xalkdjf|adc|200 pew pew";
+        codes[4] = "14112324|RAL|12354|12354|30.0|5|8|10|Xalkdjf|adc|404 Not Found";
+        codes[5] = "86112324|AIR|12354|12354|30.0|5|8|10|Xalkdjf|adc|492 what am i doing";
+        codes[6] = "34112324|GRD|12354|12354|30.0|5|8|10|Xalkdjf|adc|322 garfield road";
+        codes[7] = "23112324|RAL|12354|12354|30.0|5|8|10|Xalkdjf|adc|212 turnaround";
+        codes[8] = "10112324|AIR|12354|12354|30.0|5|8|10|Xalkdjf|adc|800 jokes rd";
 
         for(String barcode: codes){
             tokens = splitter(barcode);
             try{
                 validatePackage(tokens);
-                packValid.add(new Package(idValidate(tokens[0]), tokens[1], zipValidate(tokens[2]), zipValidate(tokens[3]), weightValidate(tokens[4]), dimensionValidate(tokens[5]), dimensionValidate(tokens[6]), dimensionValidate(tokens[7])));
+                packValid.add(new Package(idValidate(tokens[0]), tokens[1], zipValidate(tokens[2]), zipValidate(tokens[3]), weightValidate(tokens[4]), dimensionValidate(tokens[5]), dimensionValidate(tokens[6]), dimensionValidate(tokens[7]), tokens[10]));
             }catch(IllegalArgumentException e){
                 System.out.print("Error with barcode");
             }
         }
+
+        Distribution.mapStatesToDist();
+        Distribution.openZipCodes();
+        Distribution.getZipCodes();
 
         LOG.debug("Sorting lists");
         sortIntoLists();
@@ -51,10 +55,16 @@ public class Barcode {
         }
         for(Package groundShipping: grd){
             printPackage(groundShipping);
+            //System.out.println("Whse DistCtr: " + )
         }
         for(Package rail: ral){
             printPackage(rail);
         }
+    }
+
+    public static void getDist(int zip){
+        Integer zipCast = new Integer(zip);
+
     }
 
     public static void printPackage(Package p){
