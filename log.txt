@@ -1,2 +1,2 @@
-Unmatched transaction record for account number:  400
-Unmatched transaction record for account number:  900
+2018-07-02 13:48:22,314 DEBUG [ReadingBarcodes.Barcode] Sorting lists
+2018-07-02 13:48:22,315 DEBUG [ReadingBarcodes.Barcode] Printing lists
