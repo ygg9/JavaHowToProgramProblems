@@ -3,8 +3,10 @@ package ReadingBarcodes;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
+import org.apache.log4j.Logger;
 
 public class Barcode {
+    private static final Logger LOG = Logger.getLogger(Barcode.class);
     private static Scanner input = new Scanner(System.in);
     private static String[] codes = new String[9];
     private static String tokens[];
@@ -34,8 +36,10 @@ public class Barcode {
             }
         }
 
+        LOG.debug("Sorting lists");
         sortIntoLists();
 
+        LOG.debug("Printing lists");
         printOutLists();
     }
 

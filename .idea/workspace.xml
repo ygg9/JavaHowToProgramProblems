@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8a3ba7e-cf66-4779-9e67-06ee23b59b3f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ReadingBarcodes/Barcode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReadingBarcodes/Package.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReadingBarcodes/TestBarcode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jra.core.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jra.utility.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/log4j.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/Week2/Week2ReviewedProgram/CasperRentals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningPath/Week2/Week2ReviewedProgram/CasperRentals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningPath.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LearningPath.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/ReadingBarcodes/Barcode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningPath/ReadingBarcodes/Barcode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReadingBarcodes/Barcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReadingBarcodes/Barcode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,26 +34,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestBarcode.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ReadingBarcodes/TestBarcode.java">
+      <file leaf-file-name="Barcode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ReadingBarcodes/Barcode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="335">
+              <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#446#455#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Barcode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ReadingBarcodes/Barcode.java">
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -76,9 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Week2/AbstractHourlyEmployee.java" />
-        <option value="$PROJECT_DIR$/src/Week2/Date.java" />
-        <option value="$PROJECT_DIR$/src/Week2/BasePlusCommissionEmployee.java" />
         <option value="$PROJECT_DIR$/src/Week2/AbstractEmployee.java" />
         <option value="$PROJECT_DIR$/src/Week2/PayrollSystemTest.java" />
         <option value="$PROJECT_DIR$/src/Week2/AbstractPieceWorker.java" />
@@ -123,17 +122,26 @@
         <option value="$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/Electric.java" />
         <option value="$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/Boat.java" />
         <option value="$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/CasperRentals.java" />
-        <option value="$PROJECT_DIR$/src/ReadingBarcodes/TestBarcode.java" />
         <option value="$PROJECT_DIR$/src/ReadingBarcodes/Report.java" />
         <option value="$PROJECT_DIR$/src/ReadingBarcodes/Package.java" />
+        <option value="$PROJECT_DIR$/src/ReadingBarcodes/TestBarcode.java" />
+        <option value="$PROJECT_DIR$/sfeventing.properties" />
+        <option value="$PROJECT_DIR$/log4j.properties" />
         <option value="$PROJECT_DIR$/src/ReadingBarcodes/Barcode.java" />
+        <option value="$PROJECT_DIR$/src/log4j.properties" />
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="98" />
+    <option name="x" value="8" />
     <option name="y" value="23" />
-    <option name="width" value="1289" />
+    <option name="width" value="1387" />
     <option name="height" value="831" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -152,13 +160,12 @@
             <path>
               <item name="LearningPath" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearningPath" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearningPath" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearningPath" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ReadingBarcodes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,8 +188,15 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/out/production/LearningPath/ReadingBarcodes" />
+      <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -197,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestBarcode">
+  <component name="RunManager" selected="Application.Barcode">
     <configuration name="Barcode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ReadingBarcodes.Barcode" />
       <module name="LearningPath" />
@@ -296,8 +310,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestBarcode" />
         <item itemvalue="Application.Barcode" />
+        <item itemvalue="JUnit.TestBarcode" />
         <item itemvalue="JUnit.TestBarcode.testBarcode4" />
         <item itemvalue="JUnit.TestBarcode.testBarcode1" />
         <item itemvalue="Application.CasperRentals" />
@@ -359,7 +373,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="98" y="23" width="1289" height="831" extended-state="0" />
+    <frame x="8" y="23" width="1387" height="831" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -368,19 +382,20 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.21972735" side_tool="true" visible="true" weight="0.38010898" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.78027266" visible="true" weight="0.38010898" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.22304833" side_tool="true" visible="true" weight="0.38010898" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.329591" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7769517" visible="true" weight="0.38010898" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49778107" weight="0.3292011" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4704142" weight="0.19393939" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.46992782" weight="0.1934605" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16038492" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14869888" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49639133" weight="0.32833788" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7818765" weight="0.3746594" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.78027266" weight="0.3746594" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3298193" />
@@ -388,7 +403,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49704143" weight="0.32848486" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -396,52 +410,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="37" />
+      <option name="time" value="38" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter10/AbstractPieceWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter10/AbstractHourlyEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter10/AbstractEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter11/ExceptionA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter11/ExceptionB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter11/ExceptionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Week2/Chapter11/SomeClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -700,10 +672,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ReadingBarcodes/Report.java" />
+    <entry file="file://$PROJECT_DIR$/src/ReadingBarcodes/TestBarcode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sfeventing.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j/properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ReadingBarcodes/Package.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -711,23 +717,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/LearningPath/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ReadingBarcodes/Barcode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="335">
+          <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#446#455#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReadingBarcodes/TestBarcode.java">
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -788,7 +798,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
