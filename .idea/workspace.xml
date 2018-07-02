@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8a3ba7e-cf66-4779-9e67-06ee23b59b3f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/jra.core.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jra.utility.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jxl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week3/Distribution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week3/DistributionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zip.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LearningPath.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LearningPath.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/ReadingBarcodes/Barcode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningPath/ReadingBarcodes/Barcode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReadingBarcodes/Barcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReadingBarcodes/Barcode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/ReadingBarcodes/Barcode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/ReadingBarcodes/Package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/ReadingBarcodes/TestBarcode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReadingBarcodes/Barcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/Barcode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReadingBarcodes/Package.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/Package.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReadingBarcodes/TestBarcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/TestBarcode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,32 +30,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Package.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ReadingBarcodes/Package.java">
+        <entry file="file://$PROJECT_DIR$/src/Week3/Package.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="137">
+              <caret line="81" column="118" selection-start-line="81" selection-start-column="118" selection-end-line="81" selection-end-column="118" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Barcode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ReadingBarcodes/Barcode.java">
+      <file leaf-file-name="Distribution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week3/Distribution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="35" />
+            <state relative-caret-position="133">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="19" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#446#455#0" expanded="true" />
+                <element signature="e#443#460#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <file leaf-file-name="Barcode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Week3/Barcode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+            <state relative-caret-position="136">
+              <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2391#2392#0" expanded="true" />
+                <element signature="e#2469#2470#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,11 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Week2/AbstractEmployee.java" />
-        <option value="$PROJECT_DIR$/src/Week2/PayrollSystemTest.java" />
-        <option value="$PROJECT_DIR$/src/Week2/AbstractPieceWorker.java" />
-        <option value="$PROJECT_DIR$/src/Week2/ExceptionB.java" />
-        <option value="$PROJECT_DIR$/src/Week2/ExceptionTest.java" />
         <option value="$PROJECT_DIR$/src/Week2/SomeClass.java" />
         <option value="$PROJECT_DIR$/src/Week2/Chapter14Exercises.java" />
         <option value="$PROJECT_DIR$/src/Week2/CreateTransactions.java" />
@@ -129,6 +133,11 @@
         <option value="$PROJECT_DIR$/log4j.properties" />
         <option value="$PROJECT_DIR$/src/ReadingBarcodes/Barcode.java" />
         <option value="$PROJECT_DIR$/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/GroundRouting/DistributionTest.java" />
+        <option value="$PROJECT_DIR$/src/GroundRouting/Distribution.java" />
+        <option value="$PROJECT_DIR$/src/Week3/Package.java" />
+        <option value="$PROJECT_DIR$/src/Week3/Distribution.java" />
+        <option value="$PROJECT_DIR$/src/Week3/Barcode.java" />
       </list>
     </option>
   </component>
@@ -141,7 +150,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="8" />
     <option name="y" value="23" />
-    <option name="width" value="1387" />
+    <option name="width" value="1414" />
     <option name="height" value="831" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -167,6 +176,12 @@
               <item name="LearningPath" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LearningPath" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearningPath" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Week3" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -190,8 +205,8 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -213,39 +228,39 @@
   </component>
   <component name="RunManager" selected="Application.Barcode">
     <configuration name="Barcode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReadingBarcodes.Barcode" />
+      <option name="MAIN_CLASS_NAME" value="Week3.Barcode" />
       <module name="LearningPath" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ReadingBarcodes.*" />
+          <option name="PATTERN" value="Week3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="CasperRentals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week2.Week2ReviewedProgram.CasperRentals" />
+    <configuration name="Distribution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week3.Distribution" />
       <module name="LearningPath" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week2.Week2ReviewedProgram.*" />
+          <option name="PATTERN" value="Week3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TestBarcode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DistributionTest.distributionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearningPath" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ReadingBarcodes.*" />
+          <option name="PATTERN" value="Week3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ReadingBarcodes" />
-      <option name="MAIN_CLASS_NAME" value="ReadingBarcodes.TestBarcode" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Week3" />
+      <option name="MAIN_CLASS_NAME" value="Week3.DistributionTest" />
+      <option name="METHOD_NAME" value="distributionTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -255,20 +270,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestBarcode.testBarcode1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBarcode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearningPath" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ReadingBarcodes.*" />
+          <option name="PATTERN" value="Week3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ReadingBarcodes" />
-      <option name="MAIN_CLASS_NAME" value="ReadingBarcodes.TestBarcode" />
-      <option name="METHOD_NAME" value="testBarcode1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Week3" />
+      <option name="MAIN_CLASS_NAME" value="Week3.TestBarcode" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -282,14 +297,14 @@
       <module name="LearningPath" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ReadingBarcodes.*" />
+          <option name="PATTERN" value="Week3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ReadingBarcodes" />
-      <option name="MAIN_CLASS_NAME" value="ReadingBarcodes.TestBarcode" />
+      <option name="PACKAGE_NAME" value="Week3" />
+      <option name="MAIN_CLASS_NAME" value="Week3.TestBarcode" />
       <option name="METHOD_NAME" value="testBarcode4" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -302,19 +317,19 @@
       <patterns />
     </configuration>
     <list>
-      <item itemvalue="Application.CasperRentals" />
       <item itemvalue="Application.Barcode" />
       <item itemvalue="JUnit.TestBarcode" />
-      <item itemvalue="JUnit.TestBarcode.testBarcode1" />
       <item itemvalue="JUnit.TestBarcode.testBarcode4" />
+      <item itemvalue="Application.Distribution" />
+      <item itemvalue="JUnit.DistributionTest.distributionTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Barcode" />
+        <item itemvalue="Application.Distribution" />
+        <item itemvalue="JUnit.DistributionTest.distributionTest" />
         <item itemvalue="JUnit.TestBarcode" />
         <item itemvalue="JUnit.TestBarcode.testBarcode4" />
-        <item itemvalue="JUnit.TestBarcode.testBarcode1" />
-        <item itemvalue="Application.CasperRentals" />
       </list>
     </recent_temporary>
   </component>
@@ -332,15 +347,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestBarcode_testBarcode1 - 2018.07.02 at 10h 27m 10s.xml">
-      <configuration name="TestBarcode.testBarcode1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestBarcode_testBarcode1 - 2018.07.02 at 10h 28m 54s.xml">
-      <configuration name="TestBarcode.testBarcode1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestBarcode - 2018.07.02 at 10h 28m 58s.xml">
-      <configuration name="TestBarcode" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestBarcode_testBarcode4 - 2018.07.02 at 10h 30m 09s.xml">
       <configuration name="TestBarcode.testBarcode4" configurationId="JUnit" />
     </history-entry>
@@ -362,6 +368,15 @@
     <history-entry file="TestBarcode - 2018.07.02 at 12h 31m 33s.xml">
       <configuration name="TestBarcode" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DistributionTest_distributionTest - 2018.07.02 at 14h 51m 13s.xml">
+      <configuration name="DistributionTest.distributionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DistributionTest_distributionTest - 2018.07.02 at 14h 51m 46s.xml">
+      <configuration name="DistributionTest.distributionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DistributionTest_distributionTest - 2018.07.02 at 14h 52m 38s.xml">
+      <configuration name="DistributionTest.distributionTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,29 +388,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="23" width="1387" height="831" extended-state="0" />
+    <frame x="8" y="23" width="1414" height="831" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49926037" weight="0.3292011" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49238172" weight="0.32833788" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49198252" weight="0.32833788" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.22304833" side_tool="true" visible="true" weight="0.38010898" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.22594753" side_tool="true" visible="true" weight="0.38010898" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.329591" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7769517" visible="true" weight="0.38010898" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49778107" weight="0.3292011" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.46992782" weight="0.1934605" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7740525" visible="true" weight="0.38010898" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49708456" weight="0.32833788" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4664723" weight="0.1934605" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14869888" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49639133" weight="0.32833788" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14577259" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4955414" weight="0.32833788" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.78027266" weight="0.3746594" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.77915454" weight="0.3746594" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3298193" />
@@ -410,38 +425,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="38" />
+      <option name="time" value="39" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter11/SomeClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter11/SomeClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter14/Chapter14Exercises.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week1/Chapter5/Chapter5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Week1/Chapter3/InvoiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -679,16 +666,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ReadingBarcodes/Report.java" />
-    <entry file="file://$PROJECT_DIR$/src/ReadingBarcodes/TestBarcode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sfeventing.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -710,34 +687,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReadingBarcodes/Package.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/LearningPath/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReadingBarcodes/Barcode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#446#455#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jxl.jar!/jxl/read/biff/SheetImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="871">
+          <caret line="193" column="18" selection-start-line="193" selection-start-column="18" selection-end-line="193" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/TestBarcode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jxl.jar!/jxl/Sheet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/DistributionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/Package.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="81" column="118" selection-start-line="81" selection-start-column="118" selection-end-line="81" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/Distribution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#443#460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/Barcode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2391#2392#0" expanded="true" />
+            <element signature="e#2469#2470#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

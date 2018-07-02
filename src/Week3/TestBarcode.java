@@ -1,6 +1,5 @@
-package ReadingBarcodes;
+package Week3;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 public class TestBarcode {
