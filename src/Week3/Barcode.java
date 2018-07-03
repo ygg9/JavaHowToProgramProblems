@@ -25,14 +25,14 @@ public class Barcode {
 
     public static void createBarcodes(){
         codes[0] = "11112324|GRD|30131|30132|30.0|5|8|10|Xalkdjf|adc|123 Main street";
-        codes[1] = "11321324|AIR|12345|30142|30.0|5|8|10|Xalkdjf|adc|42 Hello world";
-        codes[2] = "12312324|RAL|12354|47532|30.0|5|8|10|Xalkdjf|adc|100 wow wow";
-        codes[3] = "23112324|GRD|12354|51548|30.0|5|8|10|Xalkdjf|adc|200 pew pew";
-        codes[4] = "14112324|RAL|12354|67447|30.0|5|8|10|Xalkdjf|adc|404 Not Found";
-        codes[5] = "86112324|AIR|12354|41773|30.0|5|8|10|Xalkdjf|adc|492 what am i doing";
-        codes[6] = "34112324|GRD|12354|12754|30.0|5|8|10|Xalkdjf|adc|322 garfield road";
-        codes[7] = "23112324|RAL|12354|13786|30.0|5|8|10|Xalkdjf|adc|212 turnaround";
-        codes[8] = "10112324|AIR|12354|57429|30.0|5|8|10|Xalkdjf|adc|800 jokes rd";
+        codes[1] = "11321324|AIR|35034|60099|30.0|5|8|10|Xalkdjf|adc|42 Hello world";
+        codes[2] = "12312324|RAL|35645|47532|30.0|5|8|10|Xalkdjf|adc|100 wow wow";
+        codes[3] = "23112324|GRD|98791|51548|30.0|5|8|10|Xalkdjf|adc|200 pew pew";
+        codes[4] = "14112324|RAL|85324|67447|30.0|5|8|10|Xalkdjf|adc|404 Not Found";
+        codes[5] = "86112324|AIR|72201|41773|30.0|5|8|10|Xalkdjf|adc|492 what am i doing";
+        codes[6] = "34112324|GRD|90265|12754|30.0|5|8|10|Xalkdjf|adc|322 garfield road";
+        codes[7] = "23112324|RAL|92342|13786|30.0|5|8|10|Xalkdjf|adc|212 turnaround";
+        codes[8] = "10112324|AIR|95969|57429|30.0|5|8|10|Xalkdjf|adc|800 jokes rd";
     }
 
     public static String[] splitter(String barcode){

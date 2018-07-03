@@ -2,26 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8a3ba7e-cf66-4779-9e67-06ee23b59b3f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/tracking-util.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week3/Destination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week3/Dist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week3/PackageManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week3/TrackerWrite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week3/Warehouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week3/Writer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week3/Airport/Airport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week3/Airport/AirportLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week3/Airport/Coordinate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week3/Airport/DistanceCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week3/AirportRoute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipLatLng.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningPath.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LearningPath.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LearningPath/Week3/Barcode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningPath/Week3/Barcode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/Week3/Distribution$DIST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/Week3/Distribution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningPath/Week3/Distribution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/Week3/DistributionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningPath/Week3/DistributionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/Week3/Package.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningPath/Week3/Package.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/Week3/PackageManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningPath/Week3/PackageManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Week3/Barcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/Barcode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week3/Distribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/Distribution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week3/DistributionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/DistributionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week3/Package.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/Package.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zip.xls" beforeDir="false" afterPath="$PROJECT_DIR$/zip.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week3/PackageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/PackageManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tracking.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +32,23 @@
       <file leaf-file-name="Package.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Week3/Package.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#395#396#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Distribution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week3/Distribution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,17 +56,64 @@
       <file leaf-file-name="PackageManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Week3/PackageManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="59" column="53" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+            <state relative-caret-position="192">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#272#281#0" expanded="true" />
-                <element signature="e#207#216#0" expanded="true" />
-                <element signature="e#277#286#0" expanded="true" />
-                <element signature="e#347#356#0" expanded="true" />
-                <element signature="e#1697#1698#0" expanded="true" />
-                <element signature="e#1775#1776#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tracking.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tracking.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AirportRoute.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week3/AirportRoute.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AirportLocator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week3/Airport/AirportLocator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Warehouse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week3/Warehouse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <folding>
+                <element signature="e#120#121#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Writer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week3/Writer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -87,9 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Week2/ExceptionA.java" />
-        <option value="$PROJECT_DIR$/src/Week2/SomeClassTest.java" />
-        <option value="$PROJECT_DIR$/src/Week2/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/Week2/Chapter8/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/Week2/Chapter9/SalariedEmployee.java" />
         <option value="$PROJECT_DIR$/src/Week2/CommissionEmployee.java" />
@@ -125,18 +177,21 @@
         <option value="$PROJECT_DIR$/src/GroundRouting/DistributionTest.java" />
         <option value="$PROJECT_DIR$/src/GroundRouting/Distribution.java" />
         <option value="$PROJECT_DIR$/src/Week3/DIST.java" />
-        <option value="$PROJECT_DIR$/src/Week3/DistributionTest.java" />
         <option value="$PROJECT_DIR$/src/Week3/Dist.java" />
         <option value="$PROJECT_DIR$/src/Week3/Package.java" />
-        <option value="$PROJECT_DIR$/src/Week3/Barcode.java" />
         <option value="$PROJECT_DIR$/src/Week3/TrackingWriter.java" />
         <option value="$PROJECT_DIR$/src/Week3/Writer.java" />
         <option value="$PROJECT_DIR$/src/Week3/tracker.java" />
         <option value="$PROJECT_DIR$/src/Week3/Tracker.java" />
-        <option value="$PROJECT_DIR$/src/Week3/Warehouse.java" />
-        <option value="$PROJECT_DIR$/src/Week3/Distribution.java" />
-        <option value="$PROJECT_DIR$/src/Week3/TrackerWrite.java" />
         <option value="$PROJECT_DIR$/src/Week3/Destination.java" />
+        <option value="$PROJECT_DIR$/src/Week3/DistributionTest.java" />
+        <option value="$PROJECT_DIR$/src/Week3/Airport/AirportLocator.java" />
+        <option value="$PROJECT_DIR$/src/Week3/Airport/Airport.java" />
+        <option value="$PROJECT_DIR$/src/Week3/Barcode.java" />
+        <option value="$PROJECT_DIR$/src/Week3/Distribution.java" />
+        <option value="$PROJECT_DIR$/src/Week3/Warehouse.java" />
+        <option value="$PROJECT_DIR$/src/Week3/TrackerWrite.java" />
+        <option value="$PROJECT_DIR$/src/Week3/AirportRoute.java" />
         <option value="$PROJECT_DIR$/src/Week3/PackageManager.java" />
       </list>
     </option>
@@ -169,11 +224,6 @@
             <path>
               <item name="LearningPath" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearningPath" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearningPath" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningPath" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -181,6 +231,13 @@
               <item name="LearningPath" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Week3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearningPath" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearningPath" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Week3" type="462c0819:PsiDirectoryNode" />
+              <item name="Airport" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,8 +266,9 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/Week3/Airport" />
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -384,19 +442,19 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.53571427" side_tool="true" visible="true" weight="0.1934605" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.23104957" side_tool="true" visible="true" weight="0.38010898" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.329591" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7718659" weight="0.38010898" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.76895046" visible="true" weight="0.38010898" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49708456" weight="0.32833788" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4642857" visible="true" weight="0.1934605" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.46282798" weight="0.1934605" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4966216" visible="true" weight="0.14795919" />
-      <window_info id="Structure" order="1" sideWeight="0.5033784" side_tool="true" visible="true" weight="0.14795919" />
+      <window_info id="Structure" order="1" sideWeight="0.5033784" side_tool="true" weight="0.14795919" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.77842563" weight="0.3746594" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.77623904" weight="0.3746594" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3298193" />
@@ -412,56 +470,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="40" />
+      <option name="time" value="45" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Week1/Week1ReviewedLab/Dancer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week1/Week1ReviewedLab/Vocalist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week1/Week1ReviewedLab/Week1ReviewedLab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week1/Week1ReviewedLab/Id.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week1/Week1ReviewedLab/Performer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="true" />
-            <element signature="e#10148#10149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/Date.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -638,73 +650,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracking.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Week3/TestBarcode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week3/Writer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week3/Warehouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-          <folding>
-            <element signature="e#92#93#0" expanded="true" />
-            <element signature="e#127#128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week3/DistributionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week3/Distribution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week3/Package.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week3/TrackerWrite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week3/Destination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="88" lean-forward="true" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
         </state>
       </provider>
     </entry>
@@ -715,25 +664,157 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="27" />
+          <folding>
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/DistributionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/Destination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="88" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/Airport/DistanceCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/Airport/Coordinate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/Airport/Airport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/Package.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#395#396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/Distribution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Week3/Barcode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="18" column="127" lean-forward="true" selection-start-line="18" selection-start-column="127" selection-end-line="18" selection-end-column="127" />
+        <state relative-caret-position="375">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/Airport/AirportLocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/TrackerWrite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/Warehouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/AirportRoute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracking.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Week3/PackageManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="59" column="53" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+        <state relative-caret-position="192">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#272#281#0" expanded="true" />
-            <element signature="e#207#216#0" expanded="true" />
-            <element signature="e#277#286#0" expanded="true" />
-            <element signature="e#347#356#0" expanded="true" />
-            <element signature="e#1697#1698#0" expanded="true" />
-            <element signature="e#1775#1776#0" expanded="true" />
           </folding>
         </state>
       </provider>

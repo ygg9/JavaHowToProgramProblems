@@ -2,6 +2,7 @@ package Week3;
 
 import org.apache.log4j.Logger;
 
+import Week3.Airport.*;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -48,13 +49,15 @@ public class PackageManager {
 
         for(Package airShipping: air){
             printPackage(airShipping);
-            System.out.println();
+            printAirportFrom(airShipping);
+            printAirportTo(airShipping);
+            Warehouse.trackingString(airShipping);
+            AirportRoute.trackingString(airShipping, getAirportCode(airShipping));
+            Destination.trackingString(airShipping);
         }
         for(Package groundShipping: grd){
             printPackage(groundShipping);
-            Dist center = Distribution.getDist(groundShipping.getToZip());
-
-            System.out.println(" Whse DistCtr: " + center.getDC() + " " + center.getCity() +  " Dest: " + groundShipping.getStreet());
+            printWarehouse(groundShipping);
             Warehouse.trackingString(groundShipping);
             Distribution.trackingString(groundShipping);
             Destination.trackingString(groundShipping);
@@ -63,6 +66,25 @@ public class PackageManager {
             printPackage(rail);
             System.out.println();
         }
+    }
+
+    public static String getAirportCode(Package airShipping){
+        return AirportLocator.findClosestAirport(Integer.toString(airShipping.getToZip())).getCode();
+    }
+
+    public static void printAirportTo(Package airShipping){
+        Airport airportTo = AirportLocator.findClosestAirport(Integer.toString(airShipping.getToZip()));
+        System.out.println(" To Airprt: " + airportTo.getCode() + " " + airportTo.getName());
+    }
+
+    public static void printAirportFrom(Package airShipping){
+        Airport airportFrom = AirportLocator.findClosestAirport(Integer.toString(airShipping.getFromZip()));
+        System.out.print(" From Arprt: " + airportFrom.getCode() + " " + airportFrom.getName());
+    }
+
+    public static void printWarehouse(Package groundShipping){
+        Dist center = Distribution.getDist(groundShipping.getToZip());
+        System.out.println(" Whse DistCtr: " + center.getDC() + " " + center.getCity() +  " Dest: " + groundShipping.getStreet());
     }
 
     public static void printPackage(Package p){
