@@ -69,6 +69,10 @@ public class Package implements Comparable<Package> {
         this.depth = depth;
     }
 
+    public String getStreet() {
+        return street;
+    }
+
     private int id;
     private String GRD;
     private int fromZip;

@@ -6,20 +6,22 @@ import java.io.File;
 import jxl.*;
 import jxl.read.biff.BiffException;
 
-public class Distribution {
-    public enum DIST {DC1, DC2, DC3, NA};
-    public static HashMap<String, DIST> distributionCenter = new HashMap<String, DIST>();
+public class Distribution implements TrackerWrite {
+    public static HashMap<String, Dist> distributionCenter = new HashMap<String, Dist>();
     public static Workbook workbook;
     public static Sheet sheet;
     public static HashMap<Integer, String> zipCodes = new HashMap<Integer, String>();
 
-    /*
-    public static void main(String[] args){
-        mapStatesToDist();
-        openZipCodes();
-        getZipCodes();
+    public static void trackingString(Package pack){
+        Dist center = getDist(pack.getToZip());
+        Writer.getInstance().setWrite(center.getDC() + "|" + pack.getId() + "|");
     }
-    */
+
+    public static Dist getDist(int zip){
+        Integer zipCast = new Integer(zip);
+        String state = zipCodes.get(zipCast);
+        return distributionCenter.get(state);
+    }
 
     public static void getZipCodes(){
         Cell[] zipColumn = sheet.getColumn(0);
@@ -42,56 +44,56 @@ public class Distribution {
     }
 
     public static void mapStatesToDist(){
-        distributionCenter.put("AL", DIST.DC2);
-        distributionCenter.put("AK", DIST.DC3);
-        distributionCenter.put("AZ", DIST.DC3);
-        distributionCenter.put("AR", DIST.DC2);
-        distributionCenter.put("CA", DIST.DC3);
-        distributionCenter.put("CO", DIST.DC3);
-        distributionCenter.put("CT", DIST.DC1);
-        distributionCenter.put("DE", DIST.DC1);
-        distributionCenter.put("DC", DIST.DC1);
-        distributionCenter.put("FL", DIST.DC1);
-        distributionCenter.put("GA", DIST.DC1);
-        distributionCenter.put("HI", DIST.NA);
-        distributionCenter.put("ID", DIST.DC3);
-        distributionCenter.put("IL", DIST.DC2);
-        distributionCenter.put("IN", DIST.DC2);
-        distributionCenter.put("IA", DIST.DC2);
-        distributionCenter.put("KS", DIST.DC3);
-        distributionCenter.put("KY", DIST.DC2);
-        distributionCenter.put("LA", DIST.DC2);
-        distributionCenter.put("ME", DIST.DC1);
-        distributionCenter.put("MD", DIST.DC1);
-        distributionCenter.put("MA", DIST.DC1);
-        distributionCenter.put("MI", DIST.DC2);
-        distributionCenter.put("MN", DIST.DC2);
-        distributionCenter.put("MS", DIST.DC2);
-        distributionCenter.put("MO", DIST.DC2);
-        distributionCenter.put("MT", DIST.DC3);
-        distributionCenter.put("NE", DIST.DC3);
-        distributionCenter.put("NV", DIST.DC3);
-        distributionCenter.put("NH", DIST.DC1);
-        distributionCenter.put("NJ", DIST.DC1);
-        distributionCenter.put("NM", DIST.DC3);
-        distributionCenter.put("NY", DIST.DC1);
-        distributionCenter.put("NC", DIST.DC1);
-        distributionCenter.put("ND", DIST.DC3);
-        distributionCenter.put("OH", DIST.DC1);
-        distributionCenter.put("OK", DIST.DC3);
-        distributionCenter.put("OR", DIST.DC3);
-        distributionCenter.put("PA", DIST.DC1);
-        distributionCenter.put("RI", DIST.DC1);
-        distributionCenter.put("SC", DIST.DC1);
-        distributionCenter.put("SD", DIST.DC3);
-        distributionCenter.put("TN", DIST.DC2);
-        distributionCenter.put("TX", DIST.DC3);
-        distributionCenter.put("UT", DIST.DC3);
-        distributionCenter.put("VT", DIST.DC1);
-        distributionCenter.put("VA", DIST.DC1);
-        distributionCenter.put("WA", DIST.DC2);
-        distributionCenter.put("WV", DIST.DC1);
-        distributionCenter.put("WI", DIST.DC2);
-        distributionCenter.put("WY", DIST.DC3);
+        distributionCenter.put("AL", Dist.DC2);
+        distributionCenter.put("AK", Dist.DC3);
+        distributionCenter.put("AZ", Dist.DC3);
+        distributionCenter.put("AR", Dist.DC2);
+        distributionCenter.put("CA", Dist.DC3);
+        distributionCenter.put("CO", Dist.DC3);
+        distributionCenter.put("CT", Dist.DC1);
+        distributionCenter.put("DE", Dist.DC1);
+        distributionCenter.put("DC", Dist.DC1);
+        distributionCenter.put("FL", Dist.DC1);
+        distributionCenter.put("GA", Dist.DC1);
+        distributionCenter.put("HI", Dist.NA);
+        distributionCenter.put("ID", Dist.DC3);
+        distributionCenter.put("IL", Dist.DC2);
+        distributionCenter.put("IN", Dist.DC2);
+        distributionCenter.put("IA", Dist.DC2);
+        distributionCenter.put("KS", Dist.DC3);
+        distributionCenter.put("KY", Dist.DC2);
+        distributionCenter.put("LA", Dist.DC2);
+        distributionCenter.put("ME", Dist.DC1);
+        distributionCenter.put("MD", Dist.DC1);
+        distributionCenter.put("MA", Dist.DC1);
+        distributionCenter.put("MI", Dist.DC2);
+        distributionCenter.put("MN", Dist.DC2);
+        distributionCenter.put("MS", Dist.DC2);
+        distributionCenter.put("MO", Dist.DC2);
+        distributionCenter.put("MT", Dist.DC3);
+        distributionCenter.put("NE", Dist.DC3);
+        distributionCenter.put("NV", Dist.DC3);
+        distributionCenter.put("NH", Dist.DC1);
+        distributionCenter.put("NJ", Dist.DC1);
+        distributionCenter.put("NM", Dist.DC3);
+        distributionCenter.put("NY", Dist.DC1);
+        distributionCenter.put("NC", Dist.DC1);
+        distributionCenter.put("ND", Dist.DC3);
+        distributionCenter.put("OH", Dist.DC1);
+        distributionCenter.put("OK", Dist.DC3);
+        distributionCenter.put("OR", Dist.DC3);
+        distributionCenter.put("PA", Dist.DC1);
+        distributionCenter.put("RI", Dist.DC1);
+        distributionCenter.put("SC", Dist.DC1);
+        distributionCenter.put("SD", Dist.DC3);
+        distributionCenter.put("TN", Dist.DC2);
+        distributionCenter.put("TX", Dist.DC3);
+        distributionCenter.put("UT", Dist.DC3);
+        distributionCenter.put("VT", Dist.DC1);
+        distributionCenter.put("VA", Dist.DC1);
+        distributionCenter.put("WA", Dist.DC2);
+        distributionCenter.put("WV", Dist.DC1);
+        distributionCenter.put("WI", Dist.DC2);
+        distributionCenter.put("WY", Dist.DC3);
     }
 }

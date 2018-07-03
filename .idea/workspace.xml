@@ -2,19 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8a3ba7e-cf66-4779-9e67-06ee23b59b3f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/jxl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week3/Distribution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week3/DistributionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zip.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tracking-util.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week3/Destination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week3/Dist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week3/PackageManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week3/TrackerWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week3/Warehouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week3/Writer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LearningPath.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LearningPath.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/ReadingBarcodes/Barcode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/ReadingBarcodes/Package.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/ReadingBarcodes/TestBarcode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReadingBarcodes/Barcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/Barcode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReadingBarcodes/Package.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/Package.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReadingBarcodes/TestBarcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/TestBarcode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/Week3/Barcode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningPath/Week3/Barcode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/Week3/Distribution$DIST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/Week3/Distribution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningPath/Week3/Distribution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/Week3/DistributionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningPath/Week3/DistributionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/Week3/Package.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningPath/Week3/Package.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week3/Barcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/Barcode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week3/Distribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/Distribution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week3/DistributionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/DistributionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week3/Package.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/Package.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zip.xls" beforeDir="false" afterPath="$PROJECT_DIR$/zip.xls" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,38 +35,29 @@
     <SUITE FILE_PATH="coverage/LearningPath$Week1ReviewedLabTest.ic" NAME="Week1ReviewedLabTest Coverage Results" MODIFIED="1529934506436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="Package.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Week3/Package.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="81" column="118" selection-start-line="81" selection-start-column="118" selection-end-line="81" selection-end-column="118" />
+            <state relative-caret-position="143">
+              <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Distribution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Week3/Distribution.java">
+      <file leaf-file-name="PackageManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Week3/PackageManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="305">
+              <caret line="59" column="53" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#443#460#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Barcode.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Week3/Barcode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2391#2392#0" expanded="true" />
-                <element signature="e#2469#2470#0" expanded="true" />
+                <element signature="e#272#281#0" expanded="true" />
+                <element signature="e#207#216#0" expanded="true" />
+                <element signature="e#277#286#0" expanded="true" />
+                <element signature="e#347#356#0" expanded="true" />
+                <element signature="e#1697#1698#0" expanded="true" />
+                <element signature="e#1775#1776#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,6 +68,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -79,6 +78,7 @@
     <findStrings>
       <find>read</find>
       <find>pack</find>
+      <find>toString</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -87,17 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Week2/SomeClass.java" />
-        <option value="$PROJECT_DIR$/src/Week2/Chapter14Exercises.java" />
-        <option value="$PROJECT_DIR$/src/Week2/CreateTransactions.java" />
-        <option value="$PROJECT_DIR$/src/oldmast.txt" />
-        <option value="$PROJECT_DIR$/src/Week2/CreateMastAndTrans.java" />
-        <option value="$PROJECT_DIR$/src/Week2/Account.java" />
-        <option value="$PROJECT_DIR$/trans.txt" />
-        <option value="$PROJECT_DIR$/src/Week2/TransactionRecord.java" />
-        <option value="$PROJECT_DIR$/src/Week2/CreateTrans.java" />
-        <option value="$PROJECT_DIR$/src/Week2/CreateMast.java" />
-        <option value="$PROJECT_DIR$/src/Week2/FileMatch.java" />
         <option value="$PROJECT_DIR$/src/Week2/ExceptionA.java" />
         <option value="$PROJECT_DIR$/src/Week2/SomeClassTest.java" />
         <option value="$PROJECT_DIR$/src/Week2/Rectangle.java" />
@@ -135,9 +124,20 @@
         <option value="$PROJECT_DIR$/src/log4j.properties" />
         <option value="$PROJECT_DIR$/src/GroundRouting/DistributionTest.java" />
         <option value="$PROJECT_DIR$/src/GroundRouting/Distribution.java" />
+        <option value="$PROJECT_DIR$/src/Week3/DIST.java" />
+        <option value="$PROJECT_DIR$/src/Week3/DistributionTest.java" />
+        <option value="$PROJECT_DIR$/src/Week3/Dist.java" />
         <option value="$PROJECT_DIR$/src/Week3/Package.java" />
-        <option value="$PROJECT_DIR$/src/Week3/Distribution.java" />
         <option value="$PROJECT_DIR$/src/Week3/Barcode.java" />
+        <option value="$PROJECT_DIR$/src/Week3/TrackingWriter.java" />
+        <option value="$PROJECT_DIR$/src/Week3/Writer.java" />
+        <option value="$PROJECT_DIR$/src/Week3/tracker.java" />
+        <option value="$PROJECT_DIR$/src/Week3/Tracker.java" />
+        <option value="$PROJECT_DIR$/src/Week3/Warehouse.java" />
+        <option value="$PROJECT_DIR$/src/Week3/Distribution.java" />
+        <option value="$PROJECT_DIR$/src/Week3/TrackerWrite.java" />
+        <option value="$PROJECT_DIR$/src/Week3/Destination.java" />
+        <option value="$PROJECT_DIR$/src/Week3/PackageManager.java" />
       </list>
     </option>
   </component>
@@ -148,7 +148,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="8" />
+    <option name="x" value="59" />
     <option name="y" value="23" />
     <option name="width" value="1414" />
     <option name="height" value="831" />
@@ -203,15 +203,15 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/out/production/LearningPath/ReadingBarcodes" />
       <recent name="$PROJECT_DIR$/lib" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -226,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Barcode">
+  <component name="RunManager" selected="Application.PackageManager">
     <configuration name="Barcode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week3.Barcode" />
       <module name="LearningPath" />
@@ -239,6 +239,16 @@
     </configuration>
     <configuration name="Distribution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week3.Distribution" />
+      <module name="LearningPath" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="PackageManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week3.PackageManager" />
       <module name="LearningPath" />
       <extension name="coverage">
         <pattern>
@@ -293,43 +303,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestBarcode.testBarcode4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LearningPath" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Week3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Week3" />
-      <option name="MAIN_CLASS_NAME" value="Week3.TestBarcode" />
-      <option name="METHOD_NAME" value="testBarcode4" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <list>
       <item itemvalue="Application.Barcode" />
       <item itemvalue="JUnit.TestBarcode" />
-      <item itemvalue="JUnit.TestBarcode.testBarcode4" />
       <item itemvalue="Application.Distribution" />
       <item itemvalue="JUnit.DistributionTest.distributionTest" />
+      <item itemvalue="Application.PackageManager" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PackageManager" />
         <item itemvalue="Application.Barcode" />
         <item itemvalue="Application.Distribution" />
         <item itemvalue="JUnit.DistributionTest.distributionTest" />
         <item itemvalue="JUnit.TestBarcode" />
-        <item itemvalue="JUnit.TestBarcode.testBarcode4" />
       </list>
     </recent_temporary>
   </component>
@@ -388,29 +375,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="23" width="1414" height="831" extended-state="0" />
+    <frame x="59" y="23" width="1414" height="831" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49926037" weight="0.3292011" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49198252" weight="0.32833788" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49052477" weight="0.32833788" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.22594753" side_tool="true" visible="true" weight="0.38010898" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.53571427" side_tool="true" visible="true" weight="0.1934605" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.329591" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7740525" visible="true" weight="0.38010898" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7718659" weight="0.38010898" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49708456" weight="0.32833788" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4664723" weight="0.1934605" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4642857" visible="true" weight="0.1934605" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14577259" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4955414" weight="0.32833788" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4966216" visible="true" weight="0.14795919" />
+      <window_info id="Structure" order="1" sideWeight="0.5033784" side_tool="true" visible="true" weight="0.14795919" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.77915454" weight="0.3746594" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.77842563" weight="0.3746594" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3298193" />
@@ -418,6 +404,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4955414" weight="0.32833788" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -425,73 +412,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="39" />
+      <option name="time" value="40" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Week1/Chapter3/InvoiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week1/Chapter3/Invoice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week1/Chapter2/Chapter2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter8/OutOfRange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter8/Chapter8_4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter8/Time2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/Chapter8/Time2Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week1/Chapter7/Chapter7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week1/Chapter4/Palindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Week1/Week1ReviewedLab/Dancer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -666,27 +590,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ReadingBarcodes/Report.java" />
-    <entry file="file://$PROJECT_DIR$/src/sfeventing.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/log4j/properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sfeventing.properties" />
+    <entry file="file://$PROJECT_DIR$/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/src/log4j/properties.java" />
     <entry file="file://$PROJECT_DIR$/log.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -707,13 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week3/TestBarcode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-169">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/jxl.jar!/jxl/Sheet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -721,10 +620,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="312" column="22" selection-start-line="312" selection-start-column="22" selection-end-line="312" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="1027" column="26" selection-start-line="1027" selection-start-column="18" selection-end-line="1027" selection-end-column="26" />
+          <folding>
+            <element signature="e#6390#6391#0" expanded="true" />
+            <element signature="e#6438#6439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracking.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/TestBarcode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/Warehouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Week3/DistributionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="120">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/Distribution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -733,30 +689,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Week3/Package.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="81" column="118" selection-start-line="81" selection-start-column="118" selection-end-line="81" selection-end-column="118" />
+        <state relative-caret-position="143">
+          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week3/Distribution.java">
+    <entry file="file://$PROJECT_DIR$/src/Week3/TrackerWrite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#443#460#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/Destination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="88" lean-forward="true" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/Dist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Week3/Barcode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+        <state relative-caret-position="111">
+          <caret line="18" column="127" lean-forward="true" selection-start-line="18" selection-start-column="127" selection-end-line="18" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/PackageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="59" column="53" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2391#2392#0" expanded="true" />
-            <element signature="e#2469#2470#0" expanded="true" />
+            <element signature="e#272#281#0" expanded="true" />
+            <element signature="e#207#216#0" expanded="true" />
+            <element signature="e#277#286#0" expanded="true" />
+            <element signature="e#347#356#0" expanded="true" />
+            <element signature="e#1697#1698#0" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
           </folding>
         </state>
       </provider>
