@@ -1,2 +1,2 @@
-2018-07-03 11:42:06,370 DEBUG [Week3.Barcode] Sorting lists
-2018-07-03 11:42:06,371 DEBUG [Week3.Barcode] Printing lists
+2018-07-03 15:11:01,056 DEBUG [Week3.Barcode] Sorting lists
+2018-07-03 15:11:01,057 DEBUG [Week3.Barcode] Printing lists
