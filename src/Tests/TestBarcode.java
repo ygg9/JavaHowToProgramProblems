@@ -1,8 +1,20 @@
-package Week3;
+package Tests;
 
+import Week3.Barcode;
 import org.junit.Test;
+import static org.mockito.Mockito.*;
 
 public class TestBarcode {
+    @Test
+    public void testBarcodes() {
+        Barcode barcode = mock(Barcode.class);
+        String s = "";
+        String[] test = {"11112324", "GRD", "30131", "30132", "30.0", "5", "8", "10", "Xalkdjf", "adc", "123 Main street"};
+        doReturn(test).when(barcode.splitter(s));
+
+        barcode.validatePackage(barcode.splitter(s));
+    }
+
     @Test
     public void testBarcode1() {
         Barcode bar1 = new Barcode();

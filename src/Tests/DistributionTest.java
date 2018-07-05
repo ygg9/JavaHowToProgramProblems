@@ -1,5 +1,7 @@
-package Week3;
+package Tests;
 
+import Week3.Dist;
+import Week3.Distribution;
 import org.junit.Assert;
 import org.junit.Test;
 
