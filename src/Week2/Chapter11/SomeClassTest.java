@@ -1,10 +1,10 @@
 package Week2.Chapter11;
 
 public class SomeClassTest {
-    public static void main(String[] args){
-        try{
+    public static void main(String[] args) {
+        try {
             SomeClass someClass = new SomeClass();
-        } catch (Exception exception){
+        } catch (Exception exception) {
             System.out.println(exception);
         }
     }

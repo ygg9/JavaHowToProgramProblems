@@ -11,20 +11,21 @@ public class Vocalist extends Performer {
 
     private String key;
     private int volume;
-    Vocalist(){
+
+    Vocalist() {
         key = randomKey();
         volume = 0;
     }
 
-    Vocalist(int volume){
+    Vocalist(int volume) {
         key = randomKey();
         this.volume = volume;
     }
 
-    private String randomKey(){
-        int randomInt = (int)(Math.random() * 7 + 1);
+    private String randomKey() {
+        int randomInt = (int) (Math.random() * 7 + 1);
         String random = "";
-        switch(randomInt){
+        switch (randomInt) {
             case 1:
                 random = "A";
                 break;

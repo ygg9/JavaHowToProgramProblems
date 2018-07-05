@@ -11,19 +11,19 @@ public class Barcode {
         return packValid;
     }
 
-    public static void splitBarcodes(){
-        for(String barcode: codes){
+    public static void splitBarcodes() {
+        for (String barcode : codes) {
             tokens = splitter(barcode);
-            try{
+            try {
                 validatePackage(tokens);
                 packValid.add(new Package(idValidate(tokens[0]), tokens[1], zipValidate(tokens[2]), zipValidate(tokens[3]), weightValidate(tokens[4]), dimensionValidate(tokens[5]), dimensionValidate(tokens[6]), dimensionValidate(tokens[7]), tokens[10]));
-            }catch(IllegalArgumentException e){
+            } catch (IllegalArgumentException e) {
                 System.out.print("Error with barcode");
             }
         }
     }
 
-    public static void createBarcodes(){
+    public static void createBarcodes() {
         codes[0] = "11112324|GRD|30131|30132|30.0|5|8|10|Xalkdjf|adc|123 Main street";
         codes[1] = "11321324|AIR|35034|60099|30.0|5|8|10|Xalkdjf|adc|42 Hello world";
         codes[2] = "12312324|RAL|35645|47532|30.0|5|8|10|Xalkdjf|adc|100 wow wow";
@@ -35,75 +35,73 @@ public class Barcode {
         codes[8] = "10112324|AIR|95969|57429|30.0|5|8|10|Xalkdjf|adc|800 jokes rd";
     }
 
-    public static String[] splitter(String barcode){
+    public static String[] splitter(String barcode) {
         return barcode.split("[|]");
     }
 
-    public static void validatePackage(String[] tokens) throws IllegalArgumentException{
-        try{
+    public static void validatePackage(String[] tokens) throws IllegalArgumentException {
+        try {
             idValidate(tokens[0]);
-        } catch(NumberFormatException e){
+        } catch (NumberFormatException e) {
             throw new IllegalArgumentException("id not valid", e);
         }
 
-        try{
+        try {
             shipValidate(tokens[1]);
-        } catch(IllegalArgumentException e){
+        } catch (IllegalArgumentException e) {
             throw new IllegalArgumentException("shipping method not valid", e);
         }
 
-        try{
+        try {
             zipValidate(tokens[2]);
             zipValidate(tokens[3]);
-        } catch(NumberFormatException e){
-            throw new IllegalArgumentException("zip code not valid" , e);
+        } catch (NumberFormatException e) {
+            throw new IllegalArgumentException("zip code not valid", e);
         }
 
-        try{
+        try {
             weightValidate(tokens[4]);
-        } catch(NumberFormatException e){
+        } catch (NumberFormatException e) {
             throw new IllegalArgumentException("weight not valid", e);
         }
 
-        try{
+        try {
             dimensionValidate(tokens[5]);
             dimensionValidate(tokens[6]);
             dimensionValidate(tokens[7]);
-        } catch(NumberFormatException e){
+        } catch (NumberFormatException e) {
             throw new IllegalArgumentException("dimensions not valid", e);
         }
 
     }
 
-    public static void shipValidate(String method) throws IllegalArgumentException{
-        if(method.equals("GRD") || method.equals("AIR") || method.equals("RAL")){
+    public static void shipValidate(String method) throws IllegalArgumentException {
+        if (method.equals("GRD") || method.equals("AIR") || method.equals("RAL")) {
             //pack.setGRD(method);
-        }
-        else{
+        } else {
             throw new IllegalArgumentException();
         }
     }
 
-    public static int idValidate(String id)throws NumberFormatException{
+    public static int idValidate(String id) throws NumberFormatException {
         return Integer.parseInt(id);
     }
 
-    public static int zipValidate(String zip) throws NumberFormatException{
-        if(zip.length() == 5){
+    public static int zipValidate(String zip) throws NumberFormatException {
+        if (zip.length() == 5) {
             return Integer.parseInt(zip);
-        }
-        else{
+        } else {
             throw new NumberFormatException();
         }
     }
 
-    public static double weightValidate(String weight) throws NumberFormatException{
+    public static double weightValidate(String weight) throws NumberFormatException {
         double parseWeight = Double.parseDouble(weight);
         return Math.ceil(parseWeight);
 
     }
 
-    public static int dimensionValidate(String heightWeightDepth) throws NumberFormatException{
+    public static int dimensionValidate(String heightWeightDepth) throws NumberFormatException {
         int dimension = Integer.parseInt(heightWeightDepth);
         return dimension;
     }

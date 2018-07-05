@@ -1,7 +1,7 @@
 package Week2.Chapter8;
 
 public class SavingsAccountTest {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         SavingsAccount saver1 = new SavingsAccount(2000);
         SavingsAccount saver2 = new SavingsAccount(3000);
         SavingsAccount.modifyInterestRate(.04);

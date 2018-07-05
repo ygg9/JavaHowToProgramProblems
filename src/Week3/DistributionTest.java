@@ -7,7 +7,7 @@ import java.util.HashMap;
 
 public class DistributionTest {
     @Test
-    public void distributionTest(){
+    public void distributionTest() {
         Distribution distTest = new Distribution();
         distTest.mapStatesToDist();
         distTest.openZipCodes();

@@ -1,7 +1,7 @@
 package Week2.Chapter11;
 
 public class ExceptionB extends Exception {
-    public ExceptionB(){
+    public ExceptionB() {
         super("Exception B");
     }
 }

@@ -19,47 +19,47 @@ public class CreateTrans {
     public static void main(String[] args) {
         System.out.println("1 for serialized, 2 for text");
 
-        if(input.nextInt() == 1){
+        if (input.nextInt() == 1) {
             openTransFileSerialized();
             addTransRecordsSerialized();
             closeTransFileSerialized();
-        } else{
+        } else {
             openTransFile();
             addTransRecords();
             closeTransFile();
         }
     }
 
-    public static void closeTransFileSerialized(){
-        try{
-            if (output != null){
+    public static void closeTransFileSerialized() {
+        try {
+            if (output != null) {
                 output.close();
             }
-        } catch (IOException ioException){
+        } catch (IOException ioException) {
             System.err.println("Error closing file. Terminating");
         }
     }
 
-    public static void openTransFileSerialized(){
+    public static void openTransFileSerialized() {
         try {
             output = new ObjectOutputStream(Files.newOutputStream(Paths.get("trans.ser")));
-        } catch (IOException ioException){
+        } catch (IOException ioException) {
             System.err.println("Error opening file. Terminating");
             System.exit(1);
         }
     }
 
-    public static void addTransRecordsSerialized(){
+    public static void addTransRecordsSerialized() {
         System.out.printf("%s%n%s%n: ", "Enter account number and Transaction Amount.", "Enter end-of-file indicator to end input.");
 
-        while(input.hasNext()){
-            try{
+        while (input.hasNext()) {
+            try {
                 TransactionRecord transaction = new TransactionRecord(input.nextInt(), input.nextDouble());
                 output.writeObject(transaction);
-            } catch (NoSuchElementException elementException){
+            } catch (NoSuchElementException elementException) {
                 System.err.println("Invalid input. Please try again.");
                 input.nextLine();
-            } catch (IOException ioException){
+            } catch (IOException ioException) {
                 System.err.println("Error writing to file. Terminating");
                 break;
             }
@@ -68,33 +68,33 @@ public class CreateTrans {
     }
 
 
-    public static void openTransFile(){
-        try{
+    public static void openTransFile() {
+        try {
             transactions = new Formatter("trans.txt");
-        } catch (SecurityException securityException){
+        } catch (SecurityException securityException) {
             System.err.println("Write permission denied: Terminating");
             System.exit(1);
-        } catch (FileNotFoundException fileNotFoundException){
+        } catch (FileNotFoundException fileNotFoundException) {
             System.err.println("Error opening oldmast.txt. Terminating");
         }
     }
 
-    public static void closeTransFile(){
-        if (transactions != null){
+    public static void closeTransFile() {
+        if (transactions != null) {
             transactions.close();
         }
     }
 
-    public static void addTransRecords(){
+    public static void addTransRecords() {
         System.out.printf("%s%n%s%n: ", "Enter account number and Transaction Amount.", "Enter end-of-file indicator to end input.");
 
-        while(input.hasNext()){
-            try{
+        while (input.hasNext()) {
+            try {
                 transactions.format("%d %.2f%n", input.nextInt(), input.nextDouble());
-            } catch (FormatterClosedException formatterClosedException){
+            } catch (FormatterClosedException formatterClosedException) {
                 System.err.println("Error writing to file. Terminating");
                 break;
-            } catch (NoSuchElementException elementException){
+            } catch (NoSuchElementException elementException) {
                 System.err.println("Invalid input. Please try again.");
                 input.nextLine();
             }

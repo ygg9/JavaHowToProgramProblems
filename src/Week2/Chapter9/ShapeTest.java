@@ -1,7 +1,7 @@
 package Week2.Chapter9;
 
 public class ShapeTest {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         // must enter points clockwise
         Point point1 = new Point(0, 0);
         Point point2 = new Point(20, 19);

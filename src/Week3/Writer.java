@@ -1,6 +1,7 @@
 package Week3;
 
 import com.jits.shipping.util.TrackingWriter;
+
 import java.util.Date;
 
 public class Writer {
@@ -8,16 +9,17 @@ public class Writer {
     private static Writer instance;
     private static Date date = new Date();
 
-    private Writer(){}
+    private Writer() {
+    }
 
-    public static Writer getInstance(){
-        if(instance == null){
+    public static Writer getInstance() {
+        if (instance == null) {
             instance = new Writer();
         }
         return instance;
     }
 
-    public static void setWrite(String trackingString){
+    public static void setWrite(String trackingString) {
         write.write(trackingString + date.toString());
     }
 

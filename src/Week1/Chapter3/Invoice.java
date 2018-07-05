@@ -6,25 +6,25 @@ public class Invoice {
     int quantity = 0;
     double price = 0.0;
 
-    Invoice(String partNumber, String partDescription, int quantity, double price){
+    Invoice(String partNumber, String partDescription, int quantity, double price) {
         this.partNumber = partNumber;
         this.partDescription = partDescription;
         this.quantity = quantity;
         this.price = price;
     }
 
-    public double getInvoiceAmount(){
-        if(quantity < 0){
+    public double getInvoiceAmount() {
+        if (quantity < 0) {
             quantity = 0;
         }
-        if(price < 0){
+        if (price < 0) {
             price = 0.0;
         }
         return quantity * price;
     }
 
     //Getters
-    public String getPartNumber(){
+    public String getPartNumber() {
         return partNumber;
     }
 

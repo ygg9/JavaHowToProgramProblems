@@ -43,17 +43,17 @@ public abstract class Vehicle {
     private int vehicleCode;
     private double luxuryTax = 0;
 
-    public double calculateCost(){
-        return ((this.basePrice * ((double)this.vin/this.vehicleCode))/this.range) + this.luxuryTax;
+    public double calculateCost() {
+        return ((this.basePrice * ((double) this.vin / this.vehicleCode)) / this.range) + this.luxuryTax;
     }
 
-    Vehicle(){
+    Vehicle() {
         range = 0;
         vin = 0;
         basePrice = 0;
     }
 
-    Vehicle(double range, int vin, int vehicleCode, double basePrice){
+    Vehicle(double range, int vin, int vehicleCode, double basePrice) {
         super();
         this.range = range;
         this.vin = vin;
