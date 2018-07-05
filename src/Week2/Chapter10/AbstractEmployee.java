@@ -12,7 +12,7 @@ public abstract class AbstractEmployee {
     private final Date birthday;
 
     // constructor
-    public AbstractEmployee(String firstName, String lastName, String socialSecurityNumber, Date birthday){
+    public AbstractEmployee(String firstName, String lastName, String socialSecurityNumber, Date birthday) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.socialSecurityNumber = socialSecurityNumber;
@@ -20,27 +20,27 @@ public abstract class AbstractEmployee {
     }
 
     // return first name
-    public String getFirstName(){
+    public String getFirstName() {
         return firstName;
     }
 
     // return last name
-    public String getLastName(){
+    public String getLastName() {
         return lastName;
     }
 
     // return social security number
-    public String getSocialSecurityNumber(){
+    public String getSocialSecurityNumber() {
         return socialSecurityNumber;
     }
 
     // return String representation of Employee object
     @Override
-    public String toString(){
+    public String toString() {
         return String.format("%s %s%nsocial security number: %s", getFirstName(), getLastName(), getSocialSecurityNumber());
     }
 
     // abstract method must be overridden by concrete subclasses
-    public abstract  double earnings(); // no implementation
+    public abstract double earnings(); // no implementation
     // end abstract class Employee
 }

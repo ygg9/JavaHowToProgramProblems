@@ -3,6 +3,7 @@ package Week3;
 import java.io.IOException;
 import java.util.HashMap;
 import java.io.File;
+
 import jxl.*;
 import jxl.read.biff.BiffException;
 
@@ -12,38 +13,38 @@ public class Distribution implements TrackerWrite {
     public static Sheet sheet;
     public static HashMap<Integer, String> zipCodes = new HashMap<Integer, String>();
 
-    public static void trackingString(Package pack){
+    public static void trackingString(Package pack) {
         Dist center = getDist(pack.getToZip());
         Writer.getInstance().setWrite(center.getDC() + "|" + pack.getId() + "|");
     }
 
-    public static Dist getDist(int zip){
+    public static Dist getDist(int zip) {
         Integer zipCast = new Integer(zip);
         String state = zipCodes.get(zipCast);
         return distributionCenter.get(state);
     }
 
-    public static void getZipCodes(){
+    public static void getZipCodes() {
         Cell[] zipColumn = sheet.getColumn(0);
         Cell[] stateColumn = sheet.getColumn(1);
-        for(int i = 1; i < zipColumn.length; i++){
+        for (int i = 1; i < zipColumn.length; i++) {
             Integer zip = Integer.parseInt(zipColumn[i].getContents());
             zipCodes.put(zip, stateColumn[i].getContents());
         }
     }
 
-    public static void openZipCodes(){
-        try{
-            workbook  = Workbook.getWorkbook(new File("zip.xls"));
-        } catch (IOException ioException){
+    public static void openZipCodes() {
+        try {
+            workbook = Workbook.getWorkbook(new File("zip.xls"));
+        } catch (IOException ioException) {
 
-        } catch (BiffException biffException){
+        } catch (BiffException biffException) {
 
         }
         sheet = workbook.getSheet(0);
     }
 
-    public static void mapStatesToDist(){
+    public static void mapStatesToDist() {
         distributionCenter.put("AL", Dist.DC2);
         distributionCenter.put("AK", Dist.DC3);
         distributionCenter.put("AZ", Dist.DC3);

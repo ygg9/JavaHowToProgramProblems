@@ -3,28 +3,28 @@ package Week2.Chapter11;
 import java.io.IOException;
 
 public class ExceptionTest {
-    public static void main(String[] args){
-        try{
+    public static void main(String[] args) {
+        try {
             throw new ExceptionA();
-        } catch (ExceptionA exceptionA){
+        } catch (ExceptionA exceptionA) {
             System.out.println(exceptionA);
         }
 
-        try{
+        try {
             throw new ExceptionB();
-        } catch (ExceptionB exceptionB){
+        } catch (ExceptionB exceptionB) {
             System.out.println(exceptionB.getMessage());
         }
 
-        try{
+        try {
             throw new IOException();
-        } catch (IOException ioException){
+        } catch (IOException ioException) {
             System.out.println(ioException);
         }
 
-        try{
+        try {
             throw new NullPointerException();
-        } catch (NullPointerException nullPointerException){
+        } catch (NullPointerException nullPointerException) {
             System.out.println(nullPointerException);
         }
     }

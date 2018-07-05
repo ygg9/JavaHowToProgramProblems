@@ -4,12 +4,12 @@ public class Point {
     private int xCoordinate;
     private int yCoordinate;
 
-    Point(){
+    Point() {
         xCoordinate = 0;
         yCoordinate = 0;
     }
 
-    Point(int x, int y){
+    Point(int x, int y) {
         xCoordinate = x;
         yCoordinate = y;
     }

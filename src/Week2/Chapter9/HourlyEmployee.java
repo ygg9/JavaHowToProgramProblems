@@ -10,13 +10,13 @@ public class HourlyEmployee extends Employee {
     }
 
     public void setHours(double hours) {
-        if(hours >= 0 && hours <= 168){
+        if (hours >= 0 && hours <= 168) {
             this.hours = hours;
         }
     }
 
     public void setWage(double wage) {
-        if(wage >=0){
+        if (wage >= 0) {
             this.wage = wage;
         }
     }
@@ -24,23 +24,22 @@ public class HourlyEmployee extends Employee {
     double hours;
     double wage;
 
-    HourlyEmployee(String firstName, String lastName, String SSN, double wage, double hours){
+    HourlyEmployee(String firstName, String lastName, String SSN, double wage, double hours) {
         super(firstName, lastName, SSN);
         this.hours = hours;
         this.wage = wage;
     }
 
-    public double earnings(){
-        if(hours > 40){
+    public double earnings() {
+        if (hours > 40) {
             double overtime = hours - 40;
             return 40 * wage + overtime * wage * 1.5;
-        }
-        else{
+        } else {
             return hours * wage;
         }
     }
 
-    public String toString(){
+    public String toString() {
         return super.firstName + " " + super.lastName + " " + super.SSN + " " + wage + " " + hours;
     }
 }

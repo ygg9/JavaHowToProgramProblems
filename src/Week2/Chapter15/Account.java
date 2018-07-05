@@ -8,50 +8,50 @@ public class Account implements Serializable {
     private String lastName;
     private double balance;
 
-    public Account(){
+    public Account() {
         this(0, "", "", 0.0);
     }
 
-    public Account(int account, String firstName, String lastName, double balance){
+    public Account(int account, String firstName, String lastName, double balance) {
         this.account = account;
         this.firstName = firstName;
         this.lastName = lastName;
         this.balance = balance;
     }
 
-    public void combine(TransactionRecord transactionRecord){
+    public void combine(TransactionRecord transactionRecord) {
         setBalance(transactionRecord.getAmount() + getBalance());
     }
 
-    public void setAccount(int account){
+    public void setAccount(int account) {
         this.account = account;
     }
 
-    public int getAccount(){
+    public int getAccount() {
         return account;
     }
 
-    public void setFirstName(String firstName){
+    public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
-    public String getFirstName(){
+    public String getFirstName() {
         return firstName;
     }
 
-    public void setLastName(String lastName){
+    public void setLastName(String lastName) {
         this.lastName = lastName;
     }
 
-    public String getLastName(){
+    public String getLastName() {
         return lastName;
     }
 
-    public void setBalance(double balance){
+    public void setBalance(double balance) {
         this.balance = balance;
     }
 
-    public double getBalance(){
+    public double getBalance() {
         return balance;
     }
 }

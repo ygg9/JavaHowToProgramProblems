@@ -1,6 +1,6 @@
 package Week2.Week2ReviewedProgram;
 
-public enum BoatType{
+public enum BoatType {
     BARGE(5000), //input different luxury taxes here
     CARGO(8500),
     SPEED(2200),
@@ -16,11 +16,11 @@ public enum BoatType{
 
     private double luxuryTax;
 
-    BoatType(){
+    BoatType() {
 
     }
 
-    BoatType(double luxuryTax){
+    BoatType(double luxuryTax) {
         this.luxuryTax = luxuryTax;
     }
 }

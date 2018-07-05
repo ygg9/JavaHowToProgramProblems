@@ -29,13 +29,13 @@ public class Date {
     private int day;
     private int year;
 
-    Date(){
+    Date() {
         this.month = 0;
         this.day = 0;
         this.year = 0;
     }
 
-    Date(int month, int day, int year){
+    Date(int month, int day, int year) {
         this.month = month;
         this.day = day;
         this.year = year;

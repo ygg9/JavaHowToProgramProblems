@@ -7,14 +7,15 @@ public class Dancer extends Performer {
     }
 
     private String style;
-    Dancer(){
+
+    Dancer() {
         style = randomStyle();
     }
 
-    private String randomStyle(){
-        int randomInt = (int)(Math.random() * 5 + 1);
+    private String randomStyle() {
+        int randomInt = (int) (Math.random() * 5 + 1);
         String randomStyle = "";
-        switch(randomInt){
+        switch (randomInt) {
             case 1:
                 randomStyle = "Ballet";
                 break;

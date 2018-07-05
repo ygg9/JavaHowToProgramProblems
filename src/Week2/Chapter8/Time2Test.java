@@ -1,7 +1,7 @@
 package Week2.Chapter8;
 
 public class Time2Test {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Time2 t1 = new Time2(); // 00:00:00
         Time2 t2 = new Time2(2); // 02:00:00
         Time2 t3 = new Time2(21, 34); // 21:34:00
@@ -17,13 +17,12 @@ public class Time2Test {
 
         try {
             Time2 t6 = new Time2(27, 74, 99); // invalid values
-        }
-        catch (IllegalArgumentException e){
+        } catch (IllegalArgumentException e) {
             System.out.printf("%nException while initializing t6: %s%n", e.getMessage());
         }
     }
 
-    private static void displayTime(String header, Time2 t){
+    private static void displayTime(String header, Time2 t) {
         System.out.printf("%s%n %s%n %s%n", header, t.toUniversalString(), t.toString());
     }
 }

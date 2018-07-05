@@ -4,10 +4,10 @@ public class SalariedEmployee extends AbstractEmployee {
     private double weeklySalary;
 
     // contructor
-    public SalariedEmployee(String firstName, String lastName, String socialSecurityNumber, double weeklySalary, Date birthday){
+    public SalariedEmployee(String firstName, String lastName, String socialSecurityNumber, double weeklySalary, Date birthday) {
         super(firstName, lastName, socialSecurityNumber, birthday);
 
-        if(weeklySalary < 0.0){
+        if (weeklySalary < 0.0) {
             throw new IllegalArgumentException("Weekly salary must be >= 0.0:");
         }
 
@@ -15,8 +15,8 @@ public class SalariedEmployee extends AbstractEmployee {
     }
 
     // set salary
-    public void setWeeklySalary(double weeklySalary){
-        if(weeklySalary < 0.0){
+    public void setWeeklySalary(double weeklySalary) {
+        if (weeklySalary < 0.0) {
             throw new IllegalArgumentException("Weekly salary must be >= 0.0");
         }
 
@@ -24,13 +24,13 @@ public class SalariedEmployee extends AbstractEmployee {
     }
 
     // return salary
-    public double getWeeklySalary(){
+    public double getWeeklySalary() {
         return weeklySalary;
     }
 
     // calculate earnings; override abstract method earnings in Employee
     @Override
-    public double earnings(){
+    public double earnings() {
         return getWeeklySalary();
     }
 

@@ -3,7 +3,7 @@ package Week2.Chapter15;
 import java.io.Serializable;
 
 public class TransactionRecord implements Serializable {
-    public TransactionRecord(int accountNumber, double amount){
+    public TransactionRecord(int accountNumber, double amount) {
         this.accountNumber = accountNumber;
         this.amount = amount;
     }

@@ -14,7 +14,7 @@ public enum Dist {
         return DC;
     }
 
-    Dist(String city, String DC){
+    Dist(String city, String DC) {
         this.city = city;
         this.DC = DC;
     }

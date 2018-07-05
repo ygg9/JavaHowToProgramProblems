@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class Week1ReviewedLabTest {
     @Test
-    public void testPerformer(){
+    public void testPerformer() {
         Performer test = new Performer();
         Assert.assertNotNull(test);
 
@@ -16,7 +16,7 @@ public class Week1ReviewedLabTest {
     }
 
     @Test
-    public void testId(){
+    public void testId() {
         Id identification = Id.getInstance();
         Assert.assertNotNull(identification);
 
@@ -25,30 +25,30 @@ public class Week1ReviewedLabTest {
     }
 
     @Test
-    public void testDancer(){
+    public void testDancer() {
         Dancer ballerina = new Dancer();
         Assert.assertNotNull(ballerina);
 
-        final String[] styles = new String[] { "Ballet", "Jive", "Salsa", "Swing", "Tap"};
+        final String[] styles = new String[]{"Ballet", "Jive", "Salsa", "Swing", "Tap"};
         Assert.assertTrue(Arrays.binarySearch(styles, ballerina.getStyle()) >= 0);
     }
 
     @Test
-    public void testVocalistNoVolume(){
+    public void testVocalistNoVolume() {
         Vocalist gaga = new Vocalist();
         Assert.assertNotNull(gaga);
 
-        final String[] key = new String[] { "A", "B", "C", "D", "E", "F", "G"};
+        final String[] key = new String[]{"A", "B", "C", "D", "E", "F", "G"};
         Assert.assertTrue(Arrays.binarySearch(key, gaga.getKey()) >= 0);
         Assert.assertEquals(0, gaga.getVolume());
     }
 
     @Test
-    public void testVocalist(){
+    public void testVocalist() {
         Vocalist samSmith = new Vocalist(20);
         Assert.assertNotNull(samSmith);
 
-        final String[] key = new String[] { "A", "B", "C", "D", "E", "F", "G"};
+        final String[] key = new String[]{"A", "B", "C", "D", "E", "F", "G"};
         Assert.assertTrue(Arrays.binarySearch(key, samSmith.getKey()) >= 0);
         Assert.assertEquals(20, samSmith.getVolume());
     }

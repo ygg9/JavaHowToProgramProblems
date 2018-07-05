@@ -83,7 +83,7 @@ public class Package implements Comparable<Package> {
     private int depth;
     private String street;
 
-    Package(int id, String grd, int fromZip, int toZip, double weight, int height, int width, int depth, String street){
+    Package(int id, String grd, int fromZip, int toZip, double weight, int height, int width, int depth, String street) {
         this.id = id;
         this.GRD = grd;
         this.fromZip = fromZip;
@@ -97,10 +97,10 @@ public class Package implements Comparable<Package> {
 
     @Override
     public int compareTo(Package o) {
-        if(this.id < o.getId()){
+        if (this.id < o.getId()) {
             return -1;
         }
-        if(this.id == o.getId()){
+        if (this.id == o.getId()) {
             return 0;
         }
         return 1;

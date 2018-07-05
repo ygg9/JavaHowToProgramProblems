@@ -8,15 +8,15 @@ public class SavingsAccount {
         return savingsBalance;
     }
 
-    SavingsAccount(double savingsBalance){
+    SavingsAccount(double savingsBalance) {
         this.savingsBalance = savingsBalance;
     }
 
-    public void calculateMonthlyInterest(){
+    public void calculateMonthlyInterest() {
         savingsBalance += savingsBalance * (annualInterestRate / 12);
     }
 
-    public static void modifyInterestRate(double rate){
+    public static void modifyInterestRate(double rate) {
         annualInterestRate = rate;
     }
 
