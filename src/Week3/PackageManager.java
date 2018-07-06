@@ -87,12 +87,7 @@ public class PackageManager {
 
     public static void printAirportTo(Package airShipping) {
         Airport airportTo = AirportLocator.findClosestAirport(Integer.toString(airShipping.getToZip()));
-<<<<<<< HEAD
-        //System.out.println(" To Airprt: " + airportTo.getCode() + " " + airportTo.getName());
-        LOG.info(" To Airprt: " + airportTo.getCode() + " " + airportTo.getName());
-=======
         System.out.println(" To Airprt: " + airportTo.getCode() + " " + airportTo.getName());
->>>>>>> 4617d774f63b55777629b7fb7cadfb14d6f7abb8
     }
 
     public static void printAirportFrom(Package airShipping) {
