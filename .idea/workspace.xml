@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8a3ba7e-cf66-4779-9e67-06ee23b59b3f" name="Default" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LearningPath/Week3/PackageManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningPath/Week3/PackageManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Week3/PackageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/PackageManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tracking.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tracking.txt" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_mockito_mockito_all_1_10_19.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningPath.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LearningPath.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/Week3/DistributionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningPath/Week3/TestBarcode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week3/DistributionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/DistributionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week3/TestBarcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/TestBarcode.java" afterDir="false" />
+>>>>>>> 4617d774f63b55777629b7fb7cadfb14d6f7abb8
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,16 +35,26 @@
     <SUITE FILE_PATH="coverage/LearningPath$Week1ReviewedLabTest.ic" NAME="Week1ReviewedLabTest Coverage Results" MODIFIED="1529934506436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Barcode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Week3/Barcode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
               <caret line="35" column="5" selection-start-line="26" selection-start-column="8" selection-end-line="35" selection-end-column="5" />
+=======
+    <leaf>
+      <file leaf-file-name="Boat.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/Boat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+>>>>>>> 4617d774f63b55777629b7fb7cadfb14d6f7abb8
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="AirportLocator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Week3/Airport/AirportLocator.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -42,10 +63,18 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="Automobile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/Automobile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-73">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+>>>>>>> 4617d774f63b55777629b7fb7cadfb14d6f7abb8
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Package.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Week3/Package.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -54,6 +83,76 @@
               <folding>
                 <element signature="e#395#396#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="CasperRentals.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/CasperRentals.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Electric.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/Electric.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Limitable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/Limitable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Renewable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/Renewable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SemiTruck.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/SemiTruck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vehicle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/Vehicle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoatType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/BoatType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="29" />
+>>>>>>> 4617d774f63b55777629b7fb7cadfb14d6f7abb8
             </state>
           </provider>
         </entry>
@@ -155,10 +254,17 @@
         <option value="$PROJECT_DIR$/src/Week3/RailRoute.java" />
         <option value="$PROJECT_DIR$/src/Week3/Airport/Railroad.java" />
         <option value="$PROJECT_DIR$/src/Week3/Airport/AirportLocator.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/Week3/Tests/TestBarcode.java" />
         <option value="$PROJECT_DIR$/src/Tests/TestBarcode.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Week3/PackageManager.java" />
+=======
+        <option value="$PROJECT_DIR$/src/Week3/PackageManager.java" />
+        <option value="$PROJECT_DIR$/src/Week3/Tests/TestBarcode.java" />
+        <option value="$PROJECT_DIR$/src/Tests/TestBarcode.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+>>>>>>> 4617d774f63b55777629b7fb7cadfb14d6f7abb8
       </list>
     </option>
   </component>
@@ -180,9 +286,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
+=======
+>>>>>>> 4617d774f63b55777629b7fb7cadfb14d6f7abb8
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,6 +299,7 @@
               <item name="LearningPath" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearningPath" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="LearningPath" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearningPath" type="462c0819:PsiDirectoryNode" />
@@ -208,10 +318,18 @@
               <item name="Week3" type="462c0819:PsiDirectoryNode" />
               <item name="Airport" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+>>>>>>> 4617d774f63b55777629b7fb7cadfb14d6f7abb8
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+>>>>>>> 4617d774f63b55777629b7fb7cadfb14d6f7abb8
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,7 +368,16 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.PackageManager">
+    <configuration name="Barcode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week3.Barcode" />
+      <module name="LearningPath" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+=======
+  <component name="RunManager" selected="Application.CasperRentals">
     <configuration name="Barcode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week3.Barcode" />
       <module name="LearningPath" />
@@ -267,10 +394,24 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Week2.Week2ReviewedProgram.*" />
+>>>>>>> 4617d774f63b55777629b7fb7cadfb14d6f7abb8
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
+<<<<<<< HEAD
+    <configuration name="CasperRentals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week2.Week2ReviewedProgram.CasperRentals" />
+      <module name="LearningPath" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week2.Week2ReviewedProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+=======
+>>>>>>> 4617d774f63b55777629b7fb7cadfb14d6f7abb8
     <configuration name="PackageManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week3.PackageManager" />
       <module name="LearningPath" />
@@ -336,10 +477,17 @@
     </list>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.PackageManager" />
         <item itemvalue="Application.CasperRentals" />
         <item itemvalue="JUnit.TestBarcode.testBarcodes" />
         <item itemvalue="JUnit.TestBarcode" />
+=======
+        <item itemvalue="Application.CasperRentals" />
+        <item itemvalue="JUnit.TestBarcode.testBarcodes" />
+        <item itemvalue="JUnit.TestBarcode" />
+        <item itemvalue="Application.PackageManager" />
+>>>>>>> 4617d774f63b55777629b7fb7cadfb14d6f7abb8
         <item itemvalue="Application.Barcode" />
       </list>
     </recent_temporary>
@@ -400,6 +548,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="23" width="1414" height="831" extended-state="0" />
+<<<<<<< HEAD
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4978134" weight="0.32833788" />
@@ -414,6 +563,26 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4966216" visible="true" weight="0.26239067" />
+=======
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4978134" weight="0.32833788" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.48906705" weight="0.32833788" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5408163" side_tool="true" visible="true" weight="0.47820163" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32944608" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8943149" weight="0.4945504" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49635568" weight="0.32833788" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32944608" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.45918366" visible="true" weight="0.47820163" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4966216" visible="true" weight="0.25874636" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4955414" weight="0.32833788" />
+>>>>>>> 4617d774f63b55777629b7fb7cadfb14d6f7abb8
       <window_info id="Structure" order="1" sideWeight="0.5033784" side_tool="true" weight="0.14795919" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -421,7 +590,10 @@
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7740525" weight="0.3746594" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+<<<<<<< HEAD
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32944608" />
+=======
+>>>>>>> 4617d774f63b55777629b7fb7cadfb14d6f7abb8
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -446,6 +618,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> 4617d774f63b55777629b7fb7cadfb14d6f7abb8
         </state>
       </provider>
     </entry>
@@ -453,6 +631,12 @@
     <entry file="file://$PROJECT_DIR$/src/sfeventing.properties" />
     <entry file="file://$PROJECT_DIR$/log4j.properties" />
     <entry file="file://$PROJECT_DIR$/src/log4j/properties.java" />
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+>>>>>>> 4617d774f63b55777629b7fb7cadfb14d6f7abb8
     <entry file="file://$PROJECT_DIR$/out/production/LearningPath/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -513,6 +697,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Week3/Writer.java">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
@@ -540,6 +725,35 @@
         </state>
       </provider>
     </entry>
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/Airport/DistanceCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/Airport/Airport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/Warehouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 4617d774f63b55777629b7fb7cadfb14d6f7abb8
     <entry file="file://$PROJECT_DIR$/src/Week3/TrackerWrite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -585,6 +799,47 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/Week3/Airport/AirportLocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#622#632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/Package.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-412">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#395#396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracking.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week3/PackageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 4617d774f63b55777629b7fb7cadfb14d6f7abb8
     <entry file="file://$PROJECT_DIR$/src/Tests/DistributionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -606,7 +861,13 @@
         <state relative-caret-position="-4620" />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/.idea/libraries/org_mockito_mockito_core_2_2_2.xml" />
+=======
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/org_mockito_mockito_core_2_2_2.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+>>>>>>> 4617d774f63b55777629b7fb7cadfb14d6f7abb8
     <entry file="file://$PROJECT_DIR$/src/Tests/TestBarcode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -617,6 +878,16 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/Week3/Barcode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 4617d774f63b55777629b7fb7cadfb14d6f7abb8
     <entry file="file://$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/Date.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-88">
@@ -631,6 +902,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/Boat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -659,6 +931,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 4617d774f63b55777629b7fb7cadfb14d6f7abb8
     <entry file="file://$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/Electric.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -673,10 +947,17 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/Renewable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/Boat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+>>>>>>> 4617d774f63b55777629b7fb7cadfb14d6f7abb8
         </state>
       </provider>
     </entry>
@@ -687,6 +968,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/Vehicle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -745,6 +1027,47 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/Renewable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/Automobile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/BoatType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/Week2ReviewedProgram/CasperRentals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+>>>>>>> 4617d774f63b55777629b7fb7cadfb14d6f7abb8
         </state>
       </provider>
     </entry>
