@@ -6,13 +6,17 @@ public class Automobile extends Vehicle { //this is the standard automobile
     private String color;
     private final String MANUFACTURER_NAME;
 
-    Automobile() {
+    public String getColor() {
+        return color;
+    }
+
+    public Automobile() {
         emissionTest = new Date();
         MANUFACTURER_NAME = "NO MANUFACTURER NAME";
         color = "black";
     }
 
-    Automobile(Date emissionTest, int seats, double range, int vin, int vehicleCode, double basePrice, String MANUFACTURER_NAME) {
+    public Automobile(Date emissionTest, int seats, double range, int vin, int vehicleCode, double basePrice, String MANUFACTURER_NAME) {
         super(range, vin, vehicleCode, basePrice);
         this.emissionTest = emissionTest;
         this.seats = seats;
@@ -20,7 +24,7 @@ public class Automobile extends Vehicle { //this is the standard automobile
         this.MANUFACTURER_NAME = MANUFACTURER_NAME;
     }
 
-    Automobile(Date emissionTest, int seats, String color, double range, int vin, int vehicleCode, double basePrice, String MANUFACTURER_NAME) {
+    public Automobile(Date emissionTest, int seats, double range, int vin, int vehicleCode, double basePrice, String MANUFACTURER_NAME, String color) {
         super(range, vin, vehicleCode, basePrice);
         this.emissionTest = emissionTest;
         this.seats = seats;

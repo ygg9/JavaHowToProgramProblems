@@ -6,7 +6,6 @@ public class Barcode {
     private static String[] codes = new String[9];
     private static String tokens[];
     private static ArrayList<Package> packValid = new ArrayList<Package>();
-
     public static ArrayList<Package> getPackValid() {
         return packValid;
     }

@@ -10,7 +10,7 @@ public class Diesel extends Automobile {
     }
 
     Diesel(Date emissionTest, int seats, String color, double range, int vin, int vehicleCode, double basePrice, String MANUFACTURER_NAME, int wheels, int cylinders, double luxuryTax) {
-        super(emissionTest, seats, color, range, vin, vehicleCode, basePrice, MANUFACTURER_NAME);
+        super(emissionTest, seats, range, vin, vehicleCode, basePrice, MANUFACTURER_NAME, color);
         super.setLuxuryTax(luxuryTax);
         this.wheels = wheels;
         this.cylinders = cylinders;

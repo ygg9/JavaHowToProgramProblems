@@ -6,7 +6,7 @@ public class CasperRentals {
     public static ArrayList<Vehicle> rentalVehicles = new ArrayList<Vehicle>();
 
     public static void main(String[] args) {
-        Vehicle standard = new Automobile(new Date(11, 30, 1995), 4, "grey", 40, 40, 12, 3000, "HONDA");
+        Vehicle standard = new Automobile(new Date(11, 30, 1995), 4,40, 40, 12, 3000, "HONDA", "grey");
         Vehicle electric = new Electric(new Date(5, 4, 1999), 4, "red", 50, 102, 76, 15000, "TESLA", 4, true, 153);
         Vehicle diesel = new Diesel(new Date(3, 12, 2018), 2, "orange", 100, 101, 54, 8000, "FORD", 18, 5, 50);
         Vehicle semiTruck = new SemiTruck(new Date(10, 20, 2016), 5, "green", 300, 103, 66, 20000, "SUBARU", 3, 1, true, 3000);

@@ -11,7 +11,7 @@ public class Boat extends Vehicle {
         super(range, vin, vehicleCode, basePrice);
         this.boatType = boatType;
         super.setLuxuryTax(boatType.getLuxuryTax());
-        calculateRange();
+        this.calculateRange();
     }
 
     public void calculateRange() {
@@ -20,6 +20,6 @@ public class Boat extends Vehicle {
 
     @Override
     public String toString() {
-        return this.getClass() + " with VIN " + getVin() + " is available to rent. This beauty has a range of " + this.getRange() + " and only costs $" + this.calculateCost();
+        return this.getClass() + " with VIN " + super.getVin() + " is available to rent. This beauty has a range of " + this.getRange() + " and only costs $" + this.calculateCost();
     }
 }

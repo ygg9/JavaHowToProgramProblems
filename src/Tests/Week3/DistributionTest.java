@@ -1,4 +1,4 @@
-package Tests;
+package Tests.Week3;
 
 import Week3.Dist;
 import Week3.Distribution;
