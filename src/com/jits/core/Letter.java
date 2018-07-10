@@ -1,6 +1,11 @@
-package Week4;
+package com.jits.core;
 
-public class Letter extends Parcel{
+import Week4.Address;
+import Week4.DeliveryMethod;
+import Week4.Durability;
+import Week4.Parcel;
+
+public class Letter extends Parcel {
 
     Durability durability;
 

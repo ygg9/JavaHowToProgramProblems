@@ -14,4 +14,8 @@ public class Address {
         this.state = state;
         this.postalCode = postalCode;
     }
+
+    public String getPostalCode() {
+        return postalCode;
+    }
 }

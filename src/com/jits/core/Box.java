@@ -1,11 +1,15 @@
-package Week4;
+package com.jits.core;
 
-public class Boxes extends Parcel{
+import Week4.Address;
+import Week4.DeliveryMethod;
+import Week4.Parcel;
+
+public class Box extends Parcel {
     private double height;
     private double width;
     private double depth;
 
-    public Boxes(String id, Address origin, Address destination, DeliveryMethod deliveryMethod, double height, double width, double depth) {
+    public Box(String id, Address origin, Address destination, DeliveryMethod deliveryMethod, double height, double width, double depth) {
         super(id, origin, destination, deliveryMethod);
         this.height = height;
         this.width = width;

@@ -1,5 +1,8 @@
 package Week4;
 
+import com.jits.core.Box;
+import com.jits.core.Letter;
+
 import javax.annotation.Resource;
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -46,7 +49,7 @@ public class UIManager {
         return null;
     }
 
-    public Boxes parseBox(){
+    public Box parseBox(){
         String type = data.get(0);
 
         DeliveryMethod deliveryMethod = null;
@@ -75,7 +78,7 @@ public class UIManager {
 
         Address to = new Address(toName, toStreet, toCity, toState, toZip);
         Address from = new Address(fromName, fromStreet, fromCity, fromState, fromZip);
-        return new Boxes(id, from, to, deliveryMethod, height, width, depth);
+        return new Box(id, from, to, deliveryMethod, height, width, depth);
     }
 
     public Letter parseLetter(){
