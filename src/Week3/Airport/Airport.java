@@ -11,7 +11,7 @@ public class Airport {
     Airport() {
     }
 
-    Airport(String code, String name, String city, int latDeg, int latMin, int latSec, int lngDeg, int lngMin, int lngSec) {
+    public Airport(String code, String name, String city, int latDeg, int latMin, int latSec, int lngDeg, int lngMin, int lngSec) {
         this.setCode(code);
         this.setName(name);
         this.setCity(city);

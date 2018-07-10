@@ -83,7 +83,7 @@ public class Package implements Comparable<Package> {
     private int depth;
     private String street;
 
-    Package(int id, String grd, int fromZip, int toZip, double weight, int height, int width, int depth, String street) {
+    public Package(int id, String grd, int fromZip, int toZip, double weight, int height, int width, int depth, String street) {
         this.id = id;
         this.GRD = grd;
         this.fromZip = fromZip;
