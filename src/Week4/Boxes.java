@@ -5,8 +5,8 @@ public class Boxes extends Parcel{
     private double width;
     private double depth;
 
-    public Boxes(String id, String origin, String destination, String address, DeliveryMethod deliveryMethod, double height, double width, double depth) {
-        super(id, origin, destination, address, deliveryMethod);
+    public Boxes(String id, Address origin, Address destination, DeliveryMethod deliveryMethod, double height, double width, double depth) {
+        super(id, origin, destination, deliveryMethod);
         this.height = height;
         this.width = width;
         this.depth = depth;

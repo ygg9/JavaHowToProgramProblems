@@ -4,8 +4,8 @@ public class Letter extends Parcel{
 
     Durability durability;
 
-    public Letter(String id, String origin, String destination, String address, DeliveryMethod deliveryMethod, Durability durability) {
-        super(id, origin, destination, address, deliveryMethod);
+    public Letter(String id, Address origin, Address destination, DeliveryMethod deliveryMethod, Durability durability) {
+        super(id, origin, destination, deliveryMethod);
         this.durability = durability;
     }
 

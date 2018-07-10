@@ -1,0 +1,14 @@
+type
+id
+toName
+toStreet
+toCity
+toState
+toZip
+fromName
+fromStreet
+fromZip
+lType
+height
+width
+depth
