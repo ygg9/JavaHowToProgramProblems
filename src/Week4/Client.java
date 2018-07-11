@@ -28,17 +28,21 @@ public class Client {
         parcels.add(letterAir);
 
         for(Parcel p: parcels){
-            System.out.println(p.getDeliveryStatus());
-            System.out.println(p.getOrigin().getPostalCode());
-            System.out.println(p.getDestination().getPostalCode());
-            System.out.println(p.getClass());
-            System.out.println(p.getDeliveryMethod());
-            System.out.println(p.getWeight());
-            System.out.println(p.daysToDeliver());
-            System.out.println(p.shippingCost());
-            System.out.println();
+            displayParcel(p);
         }
 
+    }
+    
+    public static void displayParcel(Parcel parcel){
+        System.out.println(parcel.getDeliveryStatus());
+        System.out.println(parcel.getOrigin().getPostalCode());
+        System.out.println(parcel.getDestination().getPostalCode());
+        System.out.println(parcel.getClass());
+        System.out.println(parcel.getDeliveryMethod());
+        System.out.println(parcel.getWeight());
+        System.out.println(parcel.daysToDeliver());
+        System.out.println(parcel.shippingCost());
+        System.out.println();
     }
 
 }

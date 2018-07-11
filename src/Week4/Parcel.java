@@ -2,6 +2,7 @@ package Week4;
 
 import Week4.TimeZone.AirZone;
 import Week4.TimeZone.GroundZone;
+import Week4.TimeZone.RailZone;
 import Week4.TimeZone.TimeZoneBehaviour;
 import com.thirdParty.calibration.MailScale;
 
@@ -28,6 +29,9 @@ public abstract class Parcel implements Scale{
         }
         else if (deliveryMethod.equals(DeliveryMethod.GROUND)){
             timeZoneBehaviour = new GroundZone();
+        }
+        else if (deliveryMethod.equals(DeliveryMethod.RAIL)){
+            timeZoneBehaviour = new RailZone();
         }
     }
 
