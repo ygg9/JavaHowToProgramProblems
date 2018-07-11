@@ -18,7 +18,7 @@ public class AirZoneTest {
     public void daystoDeliverTest(){
         Address from = new Address("", "", "", "", "1234");
         Address to = new Address("", "", "", "", "5321");
-        Assert.assertEquals(airZone.daysToDeliver(from, to), 4);
+        Assert.assertEquals(airZone.daysToDeliver(from, to), 1, 0);
     }
 
 }

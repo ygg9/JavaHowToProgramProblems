@@ -30,15 +30,15 @@ public class GroundZoneTest {
     public void daysToDeliverTest(){
         Address from = new Address("", "", "", "", "1234");
         Address to = new Address("", "", "", "", "5321");
-        Assert.assertEquals(groundZone.daysToDeliver(from, to), 1);
+        Assert.assertEquals(groundZone.daysToDeliver(from, to), 1.5, 0);
 
         from = new Address("", "", "", "", "2234");
         to = new Address("", "", "", "", "9321");
-        Assert.assertEquals(groundZone.daysToDeliver(from, to), 3);
+        Assert.assertEquals(groundZone.daysToDeliver(from, to), 4.5, 0);
 
         from = new Address("", "", "", "", "3234");
         to = new Address("", "", "", "", "5321");
-        Assert.assertEquals(groundZone.daysToDeliver(from, to), 0);
+        Assert.assertEquals(groundZone.daysToDeliver(from, to), 0, 0);
 
     }
 }

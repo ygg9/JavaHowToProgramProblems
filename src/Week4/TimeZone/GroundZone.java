@@ -4,7 +4,7 @@ import Week4.Address;
 import org.w3c.dom.ranges.RangeException;
 
 public class GroundZone implements TimeZoneBehaviour {
-    public int daysToDeliver(Address origin, Address destination){
+    public double daysToDeliver(Address origin, Address destination){
         String fromZip = origin.getPostalCode();
         String toZip = destination.getPostalCode();
 
@@ -15,7 +15,7 @@ public class GroundZone implements TimeZoneBehaviour {
         int fromTZ = getTimeZone(fromDigit);
         int toTZ = getTimeZone(toDigit);
 
-        return Math.abs(fromTZ - toTZ);
+        return 1.5 * Math.abs(fromTZ - toTZ);
     }
 
     public int getFirstDigit(String zip){
