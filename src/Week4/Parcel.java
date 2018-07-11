@@ -15,6 +15,7 @@ public abstract class Parcel implements Scale{
     private TimeZoneBehaviour timeZoneBehaviour;
     private MailScale scale = new MailScale();
     private double weight;
+    private String deliveryStatus = "Not delivered";
 
     public Parcel(String id, Address origin, Address destination, DeliveryMethod deliveryMethod) {
         Id = id;
@@ -29,6 +30,19 @@ public abstract class Parcel implements Scale{
             timeZoneBehaviour = new GroundZone();
         }
     }
+
+    public double daysToDeliver(){
+        return timeZoneBehaviour.daysToDeliver(this);
+    }
+
+    public double shippingCost(){
+        return timeZoneBehaviour.shippingCost(this);
+    }
+
+    public DeliveryMethod getDeliveryMethod() {
+        return deliveryMethod;
+    }
+
 
     public Address getOrigin() {
         return Origin;
@@ -45,5 +59,13 @@ public abstract class Parcel implements Scale{
     @Override
     public double weighParcel(){
         return scale.calculateWeight(this);
+    }
+
+    public String getDeliveryStatus() {
+        return deliveryStatus;
+    }
+
+    public void setDeliveryStatus(String deliveryStatus) {
+        this.deliveryStatus = deliveryStatus;
     }
 }
