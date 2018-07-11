@@ -1,10 +1,62 @@
 package Week4.TimeZone;
 
 import Week4.Address;
+import Week4.Parcel;
 import org.w3c.dom.ranges.RangeException;
 
 public class GroundZone implements TimeZoneBehaviour {
-    public double daysToDeliver(Address origin, Address destination){
+    private final double ZONE_FACTOR = 1.5;
+    private final double COST_FACTOR = 1.1;
+    private final double DISCOUNT = .95;
+
+    @Override
+    public double daysToDeliver(Parcel parcel){
+        return ZONE_FACTOR * zoneDifference(parcel);
+    }
+
+    @Override
+    public double shippingCost(Parcel parcel){
+        double weight = parcel.getWeight();
+        weight = weight > 0 ? weight : 1;
+
+        if(crossRocky(parcel)){
+            return zoneDifference(parcel) * weight * COST_FACTOR;
+        }
+        else{
+            return zoneDifference(parcel) * weight * COST_FACTOR * DISCOUNT;
+        }
+    }
+
+    public boolean crossRocky(Parcel parcel){
+        Address origin = parcel.getOrigin();
+        Address destination = parcel.getDestination();
+
+        String fromZip = origin.getPostalCode();
+        String toZip = destination.getPostalCode();
+
+        int fromDigit = getFirstDigit(fromZip);
+        int toDigit = getFirstDigit(toZip);
+
+        int fromZone = getTimeZone(fromDigit);
+        int toZone = getTimeZone(toDigit);
+
+        if (fromZone == 3 || toZone == 3){
+            if(fromZone == toZone){
+                return false;
+            }
+            else{
+                return true;
+            }
+        }
+        else{
+            return false;
+        }
+    }
+
+    public int zoneDifference(Parcel parcel){
+        Address origin = parcel.getOrigin();
+        Address destination = parcel.getDestination();
+
         String fromZip = origin.getPostalCode();
         String toZip = destination.getPostalCode();
 
@@ -15,7 +67,7 @@ public class GroundZone implements TimeZoneBehaviour {
         int fromTZ = getTimeZone(fromDigit);
         int toTZ = getTimeZone(toDigit);
 
-        return 1.5 * Math.abs(fromTZ - toTZ);
+        return Math.abs(fromTZ - toTZ);
     }
 
     public int getFirstDigit(String zip){

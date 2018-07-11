@@ -1,7 +1,8 @@
 package Week4.TimeZone;
 
-import Week4.Address;
+import Week4.Parcel;
 
 public interface TimeZoneBehaviour {
-    public double daysToDeliver(Address origin, Address destination);
+    double daysToDeliver(Parcel parcel);
+    double shippingCost(Parcel parcel);
 }

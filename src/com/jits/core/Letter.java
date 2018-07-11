@@ -6,8 +6,8 @@ import Week4.Durability;
 import Week4.Parcel;
 
 public class Letter extends Parcel {
-
-    Durability durability;
+    private double volume = 1;
+    private Durability durability;
 
     public Letter(String id, Address origin, Address destination, DeliveryMethod deliveryMethod, Durability durability) {
         super(id, origin, destination, deliveryMethod);
@@ -16,6 +16,11 @@ public class Letter extends Parcel {
 
     public Durability getDurability() {
         return durability;
+    }
+
+    @Override
+    public double getVolume() {
+        return volume;
     }
 
     public void setDurability(Durability durability) {
