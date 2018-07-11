@@ -3,6 +3,7 @@ package Week4;
 import Week4.TimeZone.AirZone;
 import Week4.TimeZone.GroundZone;
 import Week4.TimeZone.TimeZoneBehaviour;
+import com.thirdParty.calibration.MailScale;
 
 public abstract class Parcel{
     private String Id;
@@ -10,6 +11,8 @@ public abstract class Parcel{
     private Address Destination;
     private DeliveryMethod deliveryMethod;
     private TimeZoneBehaviour timeZoneBehaviour;
+    private double weight;
+    private MailScale scale = new MailScale();
 
     public Parcel(String id, Address origin, Address destination, DeliveryMethod deliveryMethod) {
         Id = id;
@@ -19,8 +22,13 @@ public abstract class Parcel{
 
         if(deliveryMethod.equals(DeliveryMethod.AIR)){
             timeZoneBehaviour = new AirZone();
-        } else{
+        }
+        else if (deliveryMethod.equals(DeliveryMethod.GROUND)){
             timeZoneBehaviour = new GroundZone();
         }
+    }
+
+    public double weighParcel(){
+        return scale.calculateWeight(this);
     }
 }
