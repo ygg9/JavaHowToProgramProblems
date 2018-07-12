@@ -11,7 +11,7 @@ public class DeliveryInformationList {
     @XmlElementWrapper(name = "shipmentList")
 
     @XmlElement(name = "shipment")
-    private ArrayList<DeliveryInformation> deliveryInformationArrayList;
+    private ArrayList<DeliveryInformation> deliveryInformationArrayList = new ArrayList<DeliveryInformation>();
 
     public void setDeliveryInformationArrayList(ArrayList<DeliveryInformation> deliveryInformationArrayList) {
         this.deliveryInformationArrayList = deliveryInformationArrayList;
