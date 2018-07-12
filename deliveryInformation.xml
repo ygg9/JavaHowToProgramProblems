@@ -2,44 +2,15 @@
 <allShipments>
     <shipmentList>
         <shipment>
-            <deliveryStatus>Not delivered</deliveryStatus>
-            <originZip>12345</originZip>
-            <destinationZip>5432</destinationZip>
-            <parcelType>class com.jits.core.Box</parcelType>
-            <deliveryMethod>GROUND</deliveryMethod>
-            <weight>0.0</weight>
-            <deliveryTime>1.5</deliveryTime>
-            <shippingCost>1.045</shippingCost>
-        </shipment>
-        <shipment>
-            <deliveryStatus>Not delivered</deliveryStatus>
-            <originZip>5432</originZip>
-            <destinationZip>12345</destinationZip>
+            <deliveryStatus>Ready for delivery</deliveryStatus>
+            <originZip>21232</originZip>
+            <destinationZip>41234</destinationZip>
             <parcelType>class com.jits.core.Box</parcelType>
             <deliveryMethod>AIR</deliveryMethod>
-            <weight>0.0</weight>
-            <deliveryTime>1.0</deliveryTime>
-            <shippingCost>1.4034384E7</shippingCost>
-        </shipment>
-        <shipment>
-            <deliveryStatus>Not delivered</deliveryStatus>
-            <originZip>123456412</originZip>
-            <destinationZip>9845</destinationZip>
-            <parcelType>class com.jits.core.Letter</parcelType>
-            <deliveryMethod>GROUND</deliveryMethod>
-            <weight>0.0</weight>
-            <deliveryTime>4.5</deliveryTime>
-            <shippingCost>3.3000000000000003</shippingCost>
-        </shipment>
-        <shipment>
-            <deliveryStatus>Not delivered</deliveryStatus>
-            <originZip>9845</originZip>
-            <destinationZip>123456412</destinationZip>
-            <parcelType>class com.jits.core.Letter</parcelType>
-            <deliveryMethod>AIR</deliveryMethod>
-            <weight>0.0</weight>
-            <deliveryTime>2.0</deliveryTime>
-            <shippingCost>14.0</shippingCost>
+            <weight>122.14</weight>
+            <deliveryTime>0.5</deliveryTime>
+            <shippingCost>7694.82</shippingCost>
+            <hasInsurance>true</hasInsurance>
         </shipment>
     </shipmentList>
 </allShipments>

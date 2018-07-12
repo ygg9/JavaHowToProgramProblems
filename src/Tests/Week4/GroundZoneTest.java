@@ -1,6 +1,6 @@
 package Tests.Week4;
 
-import Week4.Address;
+import com.jits.core.Address;
 import Week4.DeliveryMethod;
 import Week4.Durability;
 import Week4.Parcel;

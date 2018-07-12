@@ -1,5 +1,6 @@
 package Week4;
 
+import com.jits.core.Address;
 import com.jits.core.Box;
 import com.jits.core.Letter;
 
@@ -75,10 +76,11 @@ public class UIManager {
         Double height = Double.parseDouble(data.get(13));
         Double width = Double.parseDouble(data.get(14));
         Double depth = Double.parseDouble(data.get(15));
+        Boolean hasInsurance = Boolean.getBoolean(data.get(16));
 
         Address to = new Address(toName, toStreet, toCity, toState, toZip);
         Address from = new Address(fromName, fromStreet, fromCity, fromState, fromZip);
-        return new Box(id, from, to, deliveryMethod, height, width, depth);
+        return new Box(id, from, to, deliveryMethod, height, width, depth, hasInsurance);
     }
 
     public Letter parseLetter(){
@@ -119,6 +121,7 @@ public class UIManager {
         Double height = Double.parseDouble(data.get(13));
         Double width = Double.parseDouble(data.get(14));
         Double depth = Double.parseDouble(data.get(15));
+        Boolean hasInsurance = Boolean.getBoolean(data.get(16));
 
         Address to = new Address(toName, toStreet, toCity, toState, toZip);
         Address from = new Address(fromName, fromStreet, fromCity, fromState, fromZip);

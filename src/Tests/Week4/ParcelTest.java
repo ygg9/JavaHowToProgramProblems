@@ -1,6 +1,8 @@
 package Tests.Week4;
 
 import Week4.*;
+import Week4.XmlManager.DeliveryInformation;
+import com.jits.core.Address;
 import com.jits.core.Letter;
 import com.thirdParty.calibration.MailScale;
 import org.junit.Assert;

@@ -1,5 +1,8 @@
 package Week4;
 
+import Week4.XmlManager.DeliveryInformation;
+import Week4.XmlManager.DeliveryInformationList;
+import com.jits.core.Address;
 import com.jits.core.Box;
 import com.jits.core.Letter;
 
@@ -18,8 +21,8 @@ public class Client {
         Address letterTo = new Address("Dede", "Snake street", "paris", "tx", "9845");
 
         //create all different kinds of parcels
-        Parcel boxGround = new Box("12", boxFrom, boxTo, DeliveryMethod.GROUND, 124, 124, 23);
-        Parcel boxAir = new Box("432", boxTo, boxFrom, DeliveryMethod.AIR, 252,234,34);
+        Parcel boxGround = new Box("12", boxFrom, boxTo, DeliveryMethod.GROUND, 124, 124, 23, true);
+        Parcel boxAir = new Box("432", boxTo, boxFrom, DeliveryMethod.AIR, 252,234,34, false);
 
         Parcel letterGround = new Letter("1235", letterFrom, letterTo, DeliveryMethod.GROUND, Durability.WEATHERPROOF);
         Parcel letterAir = new Letter("53432", letterTo, letterFrom, DeliveryMethod.AIR, Durability.FIREPROOF);

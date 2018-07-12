@@ -4,58 +4,90 @@ import Week4.TimeZone.AirZone;
 import Week4.TimeZone.GroundZone;
 import Week4.TimeZone.RailZone;
 import Week4.TimeZone.TimeZoneBehaviour;
+import Week4.XmlManager.DeliveryInformation;
+import com.jits.core.Address;
+import com.jits.transfer.IConfirmation;
 import com.thirdParty.calibration.MailScale;
 
-public abstract class Parcel implements Scale{
+public abstract class Parcel implements Scale, IConfirmation {
     public abstract double getVolume();
+    public abstract boolean isInsured();
 
     private String id;
     private Address origin;
-    private Address destination;
+    private Address dest;
     private DeliveryMethod deliveryMethod;
     private TimeZoneBehaviour timeZoneBehaviour;
     private MailScale scale = new MailScale();
     private double weight;
-    private String deliveryStatus = "Not delivered";
+    private String status = "Not delivered";
     private DeliveryInformation deliveryInformation;
+    private double cost;
+    private double deliveryTime;
+    private boolean insured;
+    private String deliveryType;
 
-    public Parcel(String id, Address origin, Address destination, DeliveryMethod deliveryMethod) {
+    public Parcel(String id, Address origin, Address dest, DeliveryMethod deliveryMethod) {
         this.id = id;
         this.origin = origin;
-        this.destination = destination;
+        this.dest = dest;
         this.deliveryMethod = deliveryMethod;
 
         if(deliveryMethod.equals(DeliveryMethod.AIR)){
             timeZoneBehaviour = new AirZone();
+            deliveryType = "AIR";
         }
         else if (deliveryMethod.equals(DeliveryMethod.GROUND)){
             timeZoneBehaviour = new GroundZone();
+            deliveryType = "GROUND";
         }
         else if (deliveryMethod.equals(DeliveryMethod.RAIL)){
             timeZoneBehaviour = new RailZone();
+            deliveryType = "RAIL";
         }
     }
 
-    public double daysToDeliver(){
+    public void setDeliveryTime(double deliveryTime){
+        this.deliveryTime = deliveryTime;
+    }
+
+    @Override
+    public double getDeliveryTime(){
+        return deliveryTime;
+    }
+
+    public double calculateDaysToDeliver(){
         return timeZoneBehaviour.daysToDeliver(this);
     }
 
-    public double shippingCost(){
+    public double calculateShippingCost(){
         return timeZoneBehaviour.shippingCost(this);
+    }
+
+    @Override
+    public double getCost(){
+        return cost;
+    }
+
+    public void setCost(double cost){
+        this.cost = cost;
     }
 
     public DeliveryMethod getDeliveryMethod() {
         return deliveryMethod;
     }
 
+    @Override
     public Address getOrigin() {
         return origin;
     }
 
-    public Address getDestination() {
-        return destination;
+    @Override
+    public Address getDest() {
+        return dest;
     }
 
+    @Override
     public double getWeight() {
         return weight;
     }
@@ -72,8 +104,8 @@ public abstract class Parcel implements Scale{
         this.origin = origin;
     }
 
-    public void setDestination(Address destination) {
-        this.destination = destination;
+    public void setDest(Address dest) {
+        this.dest = dest;
     }
 
     public void setDeliveryMethod(DeliveryMethod deliveryMethod) {
@@ -105,24 +137,49 @@ public abstract class Parcel implements Scale{
         return scale.calculateWeight(this);
     }
 
-    public String getDeliveryStatus() {
-        return deliveryStatus;
+    @Override
+    public String getStatus() {
+        return status;
     }
 
-    public void setDeliveryStatus(String deliveryStatus) {
-        this.deliveryStatus = deliveryStatus;
+    public void setStatus(String status) {
+        this.status = status;
     }
 
-    public DeliveryInformation createDeliveryInformation(){
+    public void setInsured(boolean insured) {
+        this.insured = insured;
+    }
+
+    @Override
+    public String getDeliveryType() {
+        return deliveryType;
+    }
+
+    public final DeliveryInformation createDeliveryInformation(){
         deliveryInformation = new DeliveryInformation();
-        deliveryInformation.setDeliveryStatus(this.deliveryStatus);
-        deliveryInformation.setOriginZip(this.origin.getPostalCode());
-        deliveryInformation.setDestinationZip(this.destination.getPostalCode());
+        deliveryInformation.setDeliveryStatus(this.getStatus());
+        deliveryInformation.setOriginZip(this.getOrigin().getPostalCode());
+        deliveryInformation.setDestinationZip(this.getDest().getPostalCode());
         deliveryInformation.setParcelType(this.getClass().toString());
         deliveryInformation.setDeliveryMethod(this.getDeliveryMethod().toString());
-        deliveryInformation.setWeight(Double.toString(this.weight));
-        deliveryInformation.setDeliveryTime(Double.toString(this.daysToDeliver()));
-        deliveryInformation.setShippingCost(Double.toString(this.shippingCost()));
+        deliveryInformation.setWeight(Double.toString(this.getWeight()));
+        deliveryInformation.setDeliveryTime(Double.toString(this.getDeliveryTime()));
+        deliveryInformation.setShippingCost(Double.toString(this.getCost()));
+        deliveryInformation.setHasInsurance(Boolean.toString(this.insured));
         return deliveryInformation;
+    }
+
+    public final void prepareForDelivery(){
+        double cost = this.calculateShippingCost();
+        cost = (double)Math.round(cost * 100d)/100;
+        this.setCost(cost);
+
+        if(this.getClass().toString().contains("Box")){
+            if(this.isInsured()){
+                this.setInsured(this.isInsured()); // set insurance
+            }
+        }
+
+        this.setDeliveryTime(this.calculateDaysToDeliver());
     }
 }

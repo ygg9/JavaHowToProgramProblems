@@ -1,10 +1,11 @@
-package Week4;
+package Week4.XmlManager;
 
 import javax.xml.bind.annotation.*;
 
 @XmlRootElement(name = "DeliveryInformation")
-@XmlType(propOrder = {"deliveryStatus", "originZip", "destinationZip", "parcelType", "deliveryMethod", "weight", "deliveryTime", "shippingCost"})
+@XmlType(propOrder = {"id", "deliveryStatus", "originZip", "destinationZip", "parcelType", "deliveryMethod", "weight", "deliveryTime", "shippingCost", "hasInsurance"})
 public class DeliveryInformation {
+    private String id;
     private String deliveryStatus;
     private String originZip;
     private String destinationZip;
@@ -13,6 +14,16 @@ public class DeliveryInformation {
     private String weight;
     private String deliveryTime;
     private String shippingCost;
+    private String hasInsurance;
+
+    public String getId() {
+        return id;
+    }
+
+    @XmlElement
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String getDeliveryStatus() {
         return deliveryStatus;
@@ -84,5 +95,14 @@ public class DeliveryInformation {
     @XmlElement
     public void setShippingCost(String shippingCost) {
         this.shippingCost = shippingCost;
+    }
+
+    public String getHasInsurance() {
+        return hasInsurance;
+    }
+
+    @XmlElement
+    public void setHasInsurance(String hasInsurance) {
+        this.hasInsurance = hasInsurance;
     }
 }

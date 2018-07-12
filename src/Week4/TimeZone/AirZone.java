@@ -1,6 +1,6 @@
 package Week4.TimeZone;
 
-import Week4.Address;
+import com.jits.core.Address;
 import Week4.Parcel;
 
 public class AirZone implements TimeZoneBehaviour {
@@ -24,7 +24,7 @@ public class AirZone implements TimeZoneBehaviour {
 
     public int zoneDifference(Parcel parcel){
         Address origin = parcel.getOrigin();
-        Address destination = parcel.getDestination();
+        Address destination = parcel.getDest();
 
         int fromDigit = origin.getPostalCode().charAt(0);
         int toDigit = destination.getPostalCode().charAt(0);

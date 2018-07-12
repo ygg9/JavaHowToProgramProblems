@@ -1,6 +1,6 @@
 package Week4.TimeZone;
 
-import Week4.Address;
+import com.jits.core.Address;
 import Week4.Parcel;
 import org.w3c.dom.ranges.RangeException;
 
@@ -29,7 +29,7 @@ public class GroundZone implements TimeZoneBehaviour {
 
     public boolean crossRocky(Parcel parcel){
         Address origin = parcel.getOrigin();
-        Address destination = parcel.getDestination();
+        Address destination = parcel.getDest();
 
         String fromZip = origin.getPostalCode();
         String toZip = destination.getPostalCode();
@@ -55,7 +55,7 @@ public class GroundZone implements TimeZoneBehaviour {
 
     public int zoneDifference(Parcel parcel){
         Address origin = parcel.getOrigin();
-        Address destination = parcel.getDestination();
+        Address destination = parcel.getDest();
 
         String fromZip = origin.getPostalCode();
         String toZip = destination.getPostalCode();

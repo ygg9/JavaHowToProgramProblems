@@ -1,4 +1,4 @@
-package Week4;
+package com.jits.core;
 
 public class Address {
     private String name;
@@ -17,5 +17,10 @@ public class Address {
 
     public String getPostalCode() {
         return postalCode;
+    }
+
+    @Override
+    public String toString(){
+        return "<html><br>" + name + "<br>" + street + "<br>" + city + ", " + state + " " + postalCode +"<br><html>";
     }
 }
