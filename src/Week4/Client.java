@@ -3,6 +3,10 @@ package Week4;
 import com.jits.core.Box;
 import com.jits.core.Letter;
 
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+import java.io.*;
 import java.util.ArrayList;
 
 public class Client {
@@ -27,22 +31,40 @@ public class Client {
         parcels.add(letterGround);
         parcels.add(letterAir);
 
+        ArrayList<DeliveryInformation> deliveryInformations = new ArrayList<DeliveryInformation>();
+
         for(Parcel p: parcels){
             displayParcel(p);
+            deliveryInformations.add(p.createDeliveryInformation());
         }
 
+        try{
+            xmlParcel(deliveryInformations);
+        } catch(JAXBException e){
+
+        }
     }
     
     public static void displayParcel(Parcel parcel){
-        System.out.println(parcel.getDeliveryStatus());
-        System.out.println(parcel.getOrigin().getPostalCode());
-        System.out.println(parcel.getDestination().getPostalCode());
-        System.out.println(parcel.getClass());
-        System.out.println(parcel.getDeliveryMethod());
-        System.out.println(parcel.getWeight());
-        System.out.println(parcel.daysToDeliver());
-        System.out.println(parcel.shippingCost());
+        DeliveryInformation deliveryInformation = parcel.createDeliveryInformation();
+        System.out.println(deliveryInformation.getDeliveryStatus());
+        System.out.println(deliveryInformation.getOriginZip());
+        System.out.println(deliveryInformation.getDestinationZip());
+        System.out.println(deliveryInformation.getParcelType());
+        System.out.println(deliveryInformation.getDeliveryMethod());
+        System.out.println(deliveryInformation.getWeight());
+        System.out.println(deliveryInformation.getDeliveryTime());
+        System.out.println(deliveryInformation.getShippingCost());
         System.out.println();
     }
 
+    public static void xmlParcel(ArrayList<DeliveryInformation> deliveryInformations) throws JAXBException {
+        DeliveryInformationList deliveryInformationList = new DeliveryInformationList();
+        deliveryInformationList.setDeliveryInformationArrayList(deliveryInformations);
+
+        JAXBContext context = JAXBContext.newInstance(DeliveryInformationList.class);
+        Marshaller mar = context.createMarshaller();
+        mar.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
+        mar.marshal(deliveryInformationList, new File("deliveryInformation.xml"));
+    }
 }

@@ -9,19 +9,20 @@ import com.thirdParty.calibration.MailScale;
 public abstract class Parcel implements Scale{
     public abstract double getVolume();
 
-    private String Id;
-    private Address Origin;
-    private Address Destination;
+    private String id;
+    private Address origin;
+    private Address destination;
     private DeliveryMethod deliveryMethod;
     private TimeZoneBehaviour timeZoneBehaviour;
     private MailScale scale = new MailScale();
     private double weight;
     private String deliveryStatus = "Not delivered";
+    private DeliveryInformation deliveryInformation;
 
     public Parcel(String id, Address origin, Address destination, DeliveryMethod deliveryMethod) {
-        Id = id;
-        Origin = origin;
-        Destination = destination;
+        this.id = id;
+        this.origin = origin;
+        this.destination = destination;
         this.deliveryMethod = deliveryMethod;
 
         if(deliveryMethod.equals(DeliveryMethod.AIR)){
@@ -47,17 +48,56 @@ public abstract class Parcel implements Scale{
         return deliveryMethod;
     }
 
-
     public Address getOrigin() {
-        return Origin;
+        return origin;
     }
 
     public Address getDestination() {
-        return Destination;
+        return destination;
     }
 
     public double getWeight() {
         return weight;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setOrigin(Address origin) {
+        this.origin = origin;
+    }
+
+    public void setDestination(Address destination) {
+        this.destination = destination;
+    }
+
+    public void setDeliveryMethod(DeliveryMethod deliveryMethod) {
+        this.deliveryMethod = deliveryMethod;
+    }
+
+    public TimeZoneBehaviour getTimeZoneBehaviour() {
+        return timeZoneBehaviour;
+    }
+
+    public void setTimeZoneBehaviour(TimeZoneBehaviour timeZoneBehaviour) {
+        this.timeZoneBehaviour = timeZoneBehaviour;
+    }
+
+    public MailScale getScale() {
+        return scale;
+    }
+
+    public void setScale(MailScale scale) {
+        this.scale = scale;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
     }
 
     @Override
@@ -71,5 +111,18 @@ public abstract class Parcel implements Scale{
 
     public void setDeliveryStatus(String deliveryStatus) {
         this.deliveryStatus = deliveryStatus;
+    }
+
+    public DeliveryInformation createDeliveryInformation(){
+        deliveryInformation = new DeliveryInformation();
+        deliveryInformation.setDeliveryStatus(this.deliveryStatus);
+        deliveryInformation.setOriginZip(this.origin.getPostalCode());
+        deliveryInformation.setDestinationZip(this.destination.getPostalCode());
+        deliveryInformation.setParcelType(this.getClass().toString());
+        deliveryInformation.setDeliveryMethod(this.getDeliveryMethod().toString());
+        deliveryInformation.setWeight(Double.toString(this.weight));
+        deliveryInformation.setDeliveryTime(Double.toString(this.daysToDeliver()));
+        deliveryInformation.setShippingCost(Double.toString(this.shippingCost()));
+        return deliveryInformation;
     }
 }
