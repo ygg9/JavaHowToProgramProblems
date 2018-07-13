@@ -9,6 +9,9 @@ import Week4.Durability;
 import Week4.Parcel;
 import Week4.XmlManager.DeliveryInformation;
 import Week4.XmlManager.DeliveryInformationList;
+import com.jits.audit.Audit;
+import com.jits.audit.AuditRecordShipping;
+import com.jits.audit.AuditSystem;
 import com.jits.core.Address;
 import com.jits.core.Box;
 import com.jits.core.Letter;
@@ -100,11 +103,18 @@ public class KioskRequestHandler {
             } catch(JAXBException e){
                 System.err.println(e);
             }
+            audit(parcel);
         }else{
             parcel.setStatus("Canceled");
         }
 		return parcel;
 	}
+
+	public static void audit(Parcel parcel){
+	    Audit audit = AuditSystem.logAudit();
+
+        audit.calculateShippingCost(parcel);
+    }
 
     public static void xmlParcel(ArrayList<DeliveryInformation> deliveryInformation) throws JAXBException {
         DeliveryInformationList deliveryInformationList = new DeliveryInformationList();
