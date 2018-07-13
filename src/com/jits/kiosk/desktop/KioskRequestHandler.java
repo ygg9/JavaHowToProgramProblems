@@ -20,7 +20,7 @@ import javax.xml.bind.Marshaller;
 
 public class KioskRequestHandler {
     private Parcel parcel = null;
-    private ArrayList<DeliveryInformation> shippedParcels = new ArrayList<DeliveryInformation>();
+    private static ArrayList<DeliveryInformation> shippedParcels = new ArrayList<DeliveryInformation>();
 
 	/**
 	 * Called from UI after user has entered all data. UI will display the
@@ -51,6 +51,8 @@ public class KioskRequestHandler {
             deliveryMethod = DeliveryMethod.AIR;
         } else if (type.contains("G")){
             deliveryMethod = DeliveryMethod.GROUND;
+        } else if (type.contains("T")){
+            deliveryMethod = DeliveryMethod.RAIL;
         }
 
 	    if(type.contains("B")){ // if box
@@ -92,12 +94,12 @@ public class KioskRequestHandler {
 	public IConfirmation handleUserDecision(boolean proceedWithShipment) {
         if(proceedWithShipment){
             shippedParcels.add(parcel.createDeliveryInformation());
+            parcel.setStatus("Shipped");
             try{
                 xmlParcel(shippedParcels);
             } catch(JAXBException e){
                 System.err.println(e);
             }
-            parcel.setStatus("Shipped");
         }else{
             parcel.setStatus("Canceled");
         }

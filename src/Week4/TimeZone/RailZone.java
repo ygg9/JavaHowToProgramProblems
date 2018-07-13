@@ -30,8 +30,8 @@ public class RailZone implements TimeZoneBehaviour {
         Address origin = parcel.getOrigin();
         Address destination = parcel.getDest();
 
-        int fromDigit = origin.getPostalCode().charAt(0);
-        int toDigit = destination.getPostalCode().charAt(0);
+        int fromDigit = Character.getNumericValue(origin.getPostalCode().charAt(0));
+        int toDigit = Character.getNumericValue(destination.getPostalCode().charAt(0));
 
         // east = 0, west = 1
         int fromTZ = getTimeZone(fromDigit);

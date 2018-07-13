@@ -3,14 +3,80 @@
     <shipmentList>
         <shipment>
             <deliveryStatus>Ready for delivery</deliveryStatus>
-            <originZip>21232</originZip>
-            <destinationZip>41234</destinationZip>
+            <originZip>93939</originZip>
+            <destinationZip>10939</destinationZip>
             <parcelType>class com.jits.core.Box</parcelType>
-            <deliveryMethod>AIR</deliveryMethod>
-            <weight>122.14</weight>
-            <deliveryTime>0.5</deliveryTime>
-            <shippingCost>7694.82</shippingCost>
-            <hasInsurance>true</hasInsurance>
+            <deliveryMethod>RAIL</deliveryMethod>
+            <weight>274.31</weight>
+            <deliveryTime>2.0</deliveryTime>
+            <shippingCost>8.491394976E7</shippingCost>
+            <hasInsurance>false</hasInsurance>
+        </shipment>
+        <shipment>
+            <deliveryStatus>Ready for delivery</deliveryStatus>
+            <originZip>93939</originZip>
+            <destinationZip>10939</destinationZip>
+            <parcelType>class com.jits.core.Box</parcelType>
+            <deliveryMethod>RAIL</deliveryMethod>
+            <weight>362.82</weight>
+            <deliveryTime>2.0</deliveryTime>
+            <shippingCost>1.1231263625E8</shippingCost>
+            <hasInsurance>false</hasInsurance>
+        </shipment>
+        <shipment>
+            <deliveryStatus>Ready for delivery</deliveryStatus>
+            <originZip>93939</originZip>
+            <destinationZip>10939</destinationZip>
+            <parcelType>class com.jits.core.Box</parcelType>
+            <deliveryMethod>RAIL</deliveryMethod>
+            <weight>245.28</weight>
+            <deliveryTime>2.0</deliveryTime>
+            <shippingCost>7.592757682E7</shippingCost>
+            <hasInsurance>false</hasInsurance>
+        </shipment>
+        <shipment>
+            <deliveryStatus>Ready for delivery</deliveryStatus>
+            <originZip>93939</originZip>
+            <destinationZip>10939</destinationZip>
+            <parcelType>class com.jits.core.Box</parcelType>
+            <deliveryMethod>RAIL</deliveryMethod>
+            <weight>217.94</weight>
+            <deliveryTime>2.0</deliveryTime>
+            <shippingCost>6.746435132E7</shippingCost>
+            <hasInsurance>false</hasInsurance>
+        </shipment>
+        <shipment>
+            <deliveryStatus>Ready for delivery</deliveryStatus>
+            <originZip>93939</originZip>
+            <destinationZip>10939</destinationZip>
+            <parcelType>class com.jits.core.Box</parcelType>
+            <deliveryMethod>RAIL</deliveryMethod>
+            <weight>138.95</weight>
+            <deliveryTime>2.0</deliveryTime>
+            <shippingCost>4.301262557E7</shippingCost>
+            <hasInsurance>false</hasInsurance>
+        </shipment>
+        <shipment>
+            <deliveryStatus>Ready for delivery</deliveryStatus>
+            <originZip>93939</originZip>
+            <destinationZip>10939</destinationZip>
+            <parcelType>class com.jits.core.Box</parcelType>
+            <deliveryMethod>RAIL</deliveryMethod>
+            <weight>340.5</weight>
+            <deliveryTime>2.0</deliveryTime>
+            <shippingCost>1.0540337535E8</shippingCost>
+            <hasInsurance>false</hasInsurance>
+        </shipment>
+        <shipment>
+            <deliveryStatus>Ready for delivery</deliveryStatus>
+            <originZip>93939</originZip>
+            <destinationZip>10939</destinationZip>
+            <parcelType>class com.jits.core.Box</parcelType>
+            <deliveryMethod>RAIL</deliveryMethod>
+            <weight>278.56</weight>
+            <deliveryTime>2.0</deliveryTime>
+            <shippingCost>58497.6</shippingCost>
+            <hasInsurance>false</hasInsurance>
         </shipment>
     </shipmentList>
 </allShipments>
