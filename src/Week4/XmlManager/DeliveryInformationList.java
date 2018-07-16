@@ -8,12 +8,14 @@ import java.util.ArrayList;
 @XmlRootElement(name = "allShipments")
 public class DeliveryInformationList {
 
-    @XmlElementWrapper(name = "shipmentList")
-
-    @XmlElement(name = "shipment")
     private ArrayList<DeliveryInformation> deliveryInformationArrayList = new ArrayList<DeliveryInformation>();
 
+    @XmlElement(name = "shipment")
     public void setDeliveryInformationArrayList(ArrayList<DeliveryInformation> deliveryInformationArrayList) {
         this.deliveryInformationArrayList = deliveryInformationArrayList;
+    }
+
+    public ArrayList<DeliveryInformation> getDeliveryInformationArrayList() {
+        return deliveryInformationArrayList;
     }
 }

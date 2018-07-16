@@ -4,7 +4,7 @@ import javax.xml.bind.annotation.*;
 
 @XmlRootElement(name = "DeliveryInformation")
 @XmlType(propOrder = {"id", "deliveryStatus", "originZip", "destinationZip", "parcelType", "deliveryMethod", "weight", "deliveryTime", "shippingCost", "hasInsurance"})
-public class DeliveryInformation {
+public class DeliveryInformation implements Comparable<DeliveryInformation>{
     private String id;
     private String deliveryStatus;
     private String originZip;
@@ -104,5 +104,18 @@ public class DeliveryInformation {
     @XmlElement
     public void setHasInsurance(String hasInsurance) {
         this.hasInsurance = hasInsurance;
+    }
+
+    @Override
+    public int compareTo(DeliveryInformation d){
+        Double thisCost = Double.parseDouble(this.shippingCost);
+        Double dCost = Double.parseDouble(d.getShippingCost());
+        if(thisCost < dCost){
+            return -1;
+        }
+        if(thisCost == dCost){
+            return 0;
+        }
+        return 1;
     }
 }

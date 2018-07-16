@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <allShipments>
-    <shipmentList>
-        <shipment>
-            <deliveryStatus>Ready for delivery</deliveryStatus>
-            <originZip>12344</originZip>
-            <destinationZip>12346</destinationZip>
-            <parcelType>class com.jits.core.Box</parcelType>
-            <deliveryMethod>AIR</deliveryMethod>
-            <weight>245.73</weight>
-            <deliveryTime>0.0</deliveryTime>
-            <shippingCost>0.0</shippingCost>
-            <hasInsurance>false</hasInsurance>
-        </shipment>
-        <shipment>
-            <deliveryStatus>Ready for delivery</deliveryStatus>
-            <originZip>12344</originZip>
-            <destinationZip>12346</destinationZip>
-            <parcelType>class com.jits.core.Box</parcelType>
-            <deliveryMethod>AIR</deliveryMethod>
-            <weight>135.16</weight>
-            <deliveryTime>0.0</deliveryTime>
-            <shippingCost>0.0</shippingCost>
-            <hasInsurance>false</hasInsurance>
-        </shipment>
-    </shipmentList>
+    <shipment>
+        <deliveryStatus>Ready for delivery</deliveryStatus>
+        <originZip>12345</originZip>
+        <destinationZip>78900</destinationZip>
+        <parcelType>class com.jits.core.Box</parcelType>
+        <deliveryMethod>AIR</deliveryMethod>
+        <weight>263.24</weight>
+        <deliveryTime>1.5</deliveryTime>
+        <shippingCost>11056.08</shippingCost>
+        <hasInsurance>true</hasInsurance>
+    </shipment>
+    <shipment>
+        <deliveryStatus>Ready for delivery</deliveryStatus>
+        <originZip>12345</originZip>
+        <destinationZip>78900</destinationZip>
+        <parcelType>class com.jits.core.Box</parcelType>
+        <deliveryMethod>AIR</deliveryMethod>
+        <weight>65.35</weight>
+        <deliveryTime>1.5</deliveryTime>
+        <shippingCost>2744.7</shippingCost>
+        <hasInsurance>true</hasInsurance>
+    </shipment>
 </allShipments>

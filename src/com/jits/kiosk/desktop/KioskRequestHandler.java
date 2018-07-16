@@ -2,8 +2,10 @@ package com.jits.kiosk.desktop;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Map;
 
+import Week4.DeliveryDB;
 import Week4.DeliveryMethod;
 import Week4.Durability;
 import Week4.Parcel;
@@ -107,6 +109,7 @@ public class KioskRequestHandler {
         }else{
             parcel.setStatus("Canceled");
         }
+        printDeliveryList(sortDeliveryList());
 		return parcel;
 	}
 
@@ -124,5 +127,26 @@ public class KioskRequestHandler {
         Marshaller mar = context.createMarshaller();
         mar.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
         mar.marshal(deliveryInformationList, new File("deliveryInformation.xml"));
+    }
+
+    public static ArrayList sortDeliveryList(){
+	    DeliveryInformationList deliveryInformationList = DeliveryDB.decodeDeliveries();
+	    ArrayList<DeliveryInformation> unsorted = deliveryInformationList.getDeliveryInformationArrayList();
+	    Collections.sort(unsorted, Collections.reverseOrder());
+	    return unsorted;
+	}
+
+	public static void printDeliveryList(ArrayList<DeliveryInformation> deliveryList){
+        for(DeliveryInformation d: deliveryList){
+            System.out.println("Delivery Type: " + d.getDeliveryMethod());
+            System.out.println("Package Type: " + d.getParcelType());
+            System.out.println("Weight: " + d.getWeight());
+            System.out.println("Insured: " + d.getHasInsurance());
+            System.out.println("Delivery Time: " + d.getDeliveryTime());
+            System.out.println("Delivery Cost: " + d.getShippingCost());
+            System.out.println("Origin: " + d.getOriginZip());
+            System.out.println("Destination: " + d.getDestinationZip());
+            System.out.println("Status: " + d.getDeliveryStatus());
+        }
     }
 }
