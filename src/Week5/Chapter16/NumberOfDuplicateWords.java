@@ -15,7 +15,7 @@ public class NumberOfDuplicateWords {
         System.out.println("Enter a string: ");
         String sentence = input.nextLine();
 
-        sentence = sentence.replaceAll("[\"\\.\\;\\']", "");
+        sentence = sentence.replaceAll("(?!')\\p{P}", "");
 
         String[] tokens = sentence.split(" ");
 
