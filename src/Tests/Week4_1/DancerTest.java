@@ -20,7 +20,6 @@ public class DancerTest {
         when(idGen.generateId()).thenReturn((long)772);
     }
 
-
     @Test
     public void toStringTest(){
         Dancer dancer = new Dancer(idGen, "tap");
