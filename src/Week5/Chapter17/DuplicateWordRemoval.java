@@ -14,7 +14,7 @@ public class DuplicateWordRemoval {
                 Arrays.stream(tokens)
                 .map(String::toLowerCase)
                 .distinct()
-                .sorted(String.CASE_INSENSITIVE_ORDER)
+                .sorted()
                 .collect(Collectors.toList()));
 
     }
