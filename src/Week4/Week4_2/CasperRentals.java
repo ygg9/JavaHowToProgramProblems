@@ -17,7 +17,7 @@ public class CasperRentals {
         int speed = 1;
         int barge = 0;
         int cargo = 0;
-        double cost = 0;
+        double cost;
         createAvailableVehicles();
 
         System.out.println();
